@@ -4,7 +4,7 @@
       type="BASISMODEL"
       id="EAPK_B7F6F3FF_D66A_49e0_90BF_91C92EBC7F47"
       generator-version="1.47.2"
-      generator-date="2018-09-24T21:38:22Z">
+      generator-date="2018-09-24T21:39:34Z">
    <section type="DOMAIN" name="BRO: GeoTOP" id="global_package_BROGeoTOP"><!--removed empty content-->
       <section type="OVERVIEW-OBJECTTYPE">
          <section name="Model"
@@ -16,9 +16,17 @@
                   <item>Naam</item>
                   <item>Model</item>
                </part>
+               <part type="CFG-DOC-HERKOMST">
+                  <item>Herkomst</item>
+                  <item>BRO</item>
+               </part>
                <part type="CFG-DOC-DEFINITIE">
                   <item>Definitie</item>
                   <item>Een versie van het ondergrondmodel GeoTOP, bestaande uit één of meer modelgebieden.</item>
+               </part>
+               <part type="CFG-DOC-HERKOMSTDEFINITIE">
+                  <item>Herkomst definitie</item>
+                  <item>TNO</item>
                </part>
             </content>
             <section type="SHORT-ATTRIBUTES">
