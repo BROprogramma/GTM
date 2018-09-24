@@ -39,4 +39,4 @@ th, td {
     padding: 0.25em;
 }
 
-img { width: auto; height: auto }
+img { width: auto; height: auto; max-width: 100% }
