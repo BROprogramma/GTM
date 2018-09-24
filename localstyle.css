@@ -38,3 +38,5 @@ th, td {
     hyphens: auto;
     padding: 0.25em;
 }
+
+img { width: auto; height: auto }
