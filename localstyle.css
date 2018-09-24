@@ -39,6 +39,6 @@ th, td {
     padding: 0.25em;
 }
 
-img #Geonovum { height: 132px, width: 67px }
+#Geonovum { height: 132px !important; width: 67px !important}
 
 img { width: auto; height: auto; max-width: 800px }
