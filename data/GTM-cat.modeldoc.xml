@@ -4,8 +4,40 @@
       type="BASISMODEL"
       id="EAPK_B7F6F3FF_D66A_49e0_90BF_91C92EBC7F47"
       generator-version="1.47.2"
-      generator-date="2018-09-24T21:39:34Z">
-   <section type="DOMAIN" name="BRO: GeoTOP" id="global_package_BROGeoTOP"><!--removed empty content-->
+      generator-date="2018-09-25T10:09:28Z">
+   <section type="DOMAIN" name="BRO: GeoTOP" id="global_package_BROGeoTOP">
+      <section type="IMAGEMAPS"
+               name="BRO: GeoTOP-imagemap"
+               id="imagemap_package_BROGeoTOP">
+         <section type="IMAGEMAP"
+                  name="Voxelmodel - overzicht"
+                  id="EAID_DB3BCFBA_AD0C_46a8_94E8_835914482E55">
+            <content>
+               <part type="CFG-DOC-NAAM">
+                  <item>Naam</item>
+                  <item>Voxelmodel - overzicht</item>
+               </part>
+               <part type="CFG-DOC-DESCRIPTION">
+                  <item>Omschrijving</item>
+                  <item/>
+               </part>
+            </content>
+         </section>
+         <section type="IMAGEMAP"
+                  name="Lagenmodel - overzicht"
+                  id="EAID_9F03ACCD_4D42_42b2_A78F_2C27719811BF">
+            <content>
+               <part type="CFG-DOC-NAAM">
+                  <item>Naam</item>
+                  <item>Lagenmodel - overzicht</item>
+               </part>
+               <part type="CFG-DOC-DESCRIPTION">
+                  <item>Omschrijving</item>
+                  <item/>
+               </part>
+            </content>
+         </section>
+      </section>
       <section type="OVERVIEW-OBJECTTYPE">
          <section name="Model"
                   type="OBJECTTYPE"
