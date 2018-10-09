@@ -1,10 +1,10 @@
 <h2>Catalogus</h2>
 <p class="note" title="Over deze catalogus">
    Deze catalogus is automatisch samengesteld op basis van het UML model 
-   "BRO: GeoTOP" door Imvertor 1.47.2 op September 25, 2018 at 10:25:37.
+   "BRO: GeoTOP" door Imvertor 1.47.2 op October 9, 2018 at 06:14:56.
    <br>
    Wanneer je technische fouten of onvolkomenheden aantreft, geef dit dan door aan <i></i> en geef de code 
-   <i>"GeoTOP-BROGeoTOP-0.4-1-20180925-20180925-122539"</i> door. 
+   <i>"GeoTOP-BROGeoTOP-0.4-1-20180925-20181009-081458"</i> door. 
    
 </p>
 <div class="imageinfo overview"><img src="data/Images/EAID_7F351635_2E64_440e_B381_9C272D96E4CD.png" usemap="#imagemap-EAID_7F351635_2E64_440e_B381_9C272D96E4CD"><map name="imagemap-EAID_7F351635_2E64_440e_B381_9C272D96E4CD">
@@ -21,11 +21,12 @@
          - overzicht</b></p>
 </div>
 <div class="imageinfo overview"><img src="data/Images/EAID_DB3BCFBA_AD0C_46a8_94E8_835914482E55.png" usemap="#imagemap-EAID_DB3BCFBA_AD0C_46a8_94E8_835914482E55"><map name="imagemap-EAID_DB3BCFBA_AD0C_46a8_94E8_835914482E55">
+      <area shape="rect" coords="755,563,915,461" alt="" href="#graph_EAID_E63AD532_E801_4bdf_BFDF_CF1398C683EA">
       <area shape="rect" coords="35,185,182,57" alt="" href="#graph_EAID_BDFBB7D9_5E75_4ae6_B54C_77E0F39751FA">
       <area shape="rect" coords="273,554,512,305" alt="" href="#graph_EAID_44B3CBF9_7FA8_4c3d_BFF6_F1C2DDF0FC4A">
       <area shape="rect" coords="328,191,473,50" alt="" href="#graph_EAID_B2FFFC7A_A816_4eeb_B88F_CE3AE19010F5">
-      <area shape="rect" coords="539,582,709,454" alt="" href="#graph_EAID_48AE86B5_4DD3_44c5_B4CA_CE46C61DC0DD">
-      <area shape="rect" coords="531,433,711,305" alt="" href="#graph_EAID_E2C03310_71E6_4a43_90B1_C3E4EEFCF1F6"></map><p><b>Voxelmodel - overzicht</b></p>
+      <area shape="rect" coords="540,582,710,454" alt="" href="#graph_EAID_48AE86B5_4DD3_44c5_B4CA_CE46C61DC0DD">
+      <area shape="rect" coords="535,433,715,305" alt="" href="#graph_EAID_E2C03310_71E6_4a43_90B1_C3E4EEFCF1F6"></map><p><b>Voxelmodel - overzicht</b></p>
 </div>
 <div class="imageinfo overview"><img src="data/Images/EAID_4F5490F9_0E1D_4764_8E15_7E3BF23C1B9D.png" usemap="#imagemap-EAID_4F5490F9_0E1D_4764_8E15_7E3BF23C1B9D"><map name="imagemap-EAID_4F5490F9_0E1D_4764_8E15_7E3BF23C1B9D">
       <area shape="rect" coords="676,204,766,134" alt="" href="#graph_EAID_B1D7A0F7_E3FF_43e8_B96B_FAE820D6B006">
@@ -203,18 +204,6 @@
                <th>Herkomst definitie</th>
                <td>TNO</td>
             </tr>
-            <tr>
-               <th>Toelichting</th>
-               <td>Bij het construeren van een modelgebiedversie wordt op een zeker moment een momentopname
-                  (?snapshot?) gemaakt van de boormonsterprofielen en de bijbehorende boorbeschrijvingsintervallen
-                  in de DINO-databank. De interpretaties van de boormonsterprofielen worden vervolgens
-                  gebaseerd op deze momentopname. Alle wijzigingen die na de momentopname in de DINO-databank
-                  worden aangebracht, zullen daarom niet zichtbaar zijn in de betreffende modelgebiedversie.
-                  Wel is er een relatie tussen het boormonsterprofiel in de momentopname en het boormonsterprofiel
-                  in de DINO-databank (attribuut DINO-identificatie), zodat indien gewenst de momentopname
-                  vergeleken kan worden met de actuele situatie in DINO.
-               </td>
-            </tr>
          </tbody>
       </table>
       
@@ -261,7 +250,7 @@
                   <a class="link" href="#detail_attribute_BROGeoTOP_Modelgebied_datumIngang">datum ingang</a>
                   
                </td>
-               <td>Eerste dag waarop de modelgebiedversie actueel is.</td>
+               <td>Eerste dag waarop het modelgebied actueel is.</td>
                <td>
                   Datum
                   
@@ -273,7 +262,7 @@
                   <a class="link" href="#detail_attribute_BROGeoTOP_Modelgebied_datumEinde">datum einde</a>
                   
                </td>
-               <td>Laatste dag waarop de modelgebiedversie actueel is.</td>
+               <td>Laatste dag waarop het modelgebied actueel is.</td>
                <td>
                   Datum
                   
@@ -297,7 +286,7 @@
                   <a class="link" href="#detail_attribute_BROGeoTOP_Modelgebied_grensvlakTop">grensvlak top</a>
                   
                </td>
-               <td>Raster met de beschrijving van maaiveld en waterbodemhoogte in meters t.o.v. NAP.</td>
+               <td>Raster met de beschrijving van maaiveld- en waterbodemhoogte in meters t.o.v. NAP.</td>
                <td>
                   <a class="link" href="#global_class_BROGeoTOP_CV_Coverage">CV_Coverage</a>
                   
@@ -364,7 +353,7 @@
                   [ 1 ]
                   
                </td>
-               <td>De unieke aanduiding van de Modelgebied waarvan het Voxel deel uit maakt.</td>
+               <td>De unieke aanduiding van het Modelgebied waarvan het Laag deel uit maakt.</td>
             </tr>
             <tr>
                <td>
@@ -379,7 +368,7 @@
                   [ 1 ]
                   
                </td>
-               <td>De unieke aanduiding van het Modelgebied waarvan het Voxel deel uit maakt.</td>
+               <td>De unieke aanduiding van het Modelgebied waarvan de Voxel deel uit maakt.</td>
             </tr>
          </tbody>
       </table>
@@ -410,6 +399,15 @@
             <tr>
                <th>Herkomst definitie</th>
                <td>TNO</td>
+            </tr>
+            <tr>
+               <th>Toelichting</th>
+               <td>Bij het construeren van een modelgebiedversie wordt op een zeker moment een momentopname
+                  (snapshot) gemaakt van de boormonsterprofielen en de bijbehorende boorbeschrijvingsintervallen
+                  in de bron-databank. De interpretaties van de boormonsterprofielen worden vervolgens
+                  gebaseerd op deze momentopname. Alle wijzigingen die na de momentopname in de DINO-databank
+                  worden aangebracht, zullen daarom niet zichtbaar zijn in de betreffende modelgebiedversie.
+               </td>
             </tr>
          </tbody>
       </table>
@@ -569,7 +567,7 @@
             </tr>
             <tr>
                <th>Definitie</th>
-               <td>Boorbeschrijvingsinterval in een in een modelgebiedversie geïnterpreteerd boormonsterprofiel.</td>
+               <td>Boorbeschrijvingsinterval van een in een modelgebied geïnterpreteerd boormonsterprofiel.</td>
             </tr>
             <tr>
                <th>Herkomst definitie</th>
@@ -609,9 +607,9 @@
                   <a class="link" href="#detail_attribute_BROGeoTOP_Boorbeschrijvingsinterval_lithologie">lithologie</a>
                   
                </td>
-               <td>(hoofd)lithologie</td>
+               <td>Code die de lithologie van het interval aangeeft.</td>
                <td>
-                  Integer
+                  CHARACTERSTRING
                   
                </td>
                <td>0 .. 1</td>
@@ -915,9 +913,7 @@
             </tr>
             <tr>
                <th>Definitie</th>
-               <td>Interpretatie van een in GeoTOP gebruikt boormonsterprofiel als opeenvolging van boorbeschrijvingsintervallen
-                  van gelijke geologische eenheid.
-               </td>
+               <td>De geologische eenheid waartoe het interval behoort.</td>
             </tr>
             <tr>
                <th>Herkomst definitie</th>
@@ -971,7 +967,7 @@
                   <a class="link" href="#detail_attribute_BROGeoTOP_GeNterpreteerdGeologischeEenheidInterval_indicatieGestuwd">indicatie gestuwd</a>
                   
                </td>
-               <td>Aanduiding of gestuwd is.</td>
+               <td>Indicatie of het interval door landijs gestuwd is.</td>
                <td>
                   <a class="link" href="#global_class_BROGeoTOP_Indicatie">Indicatie</a>
                   
@@ -983,7 +979,9 @@
                   <a class="link" href="#detail_attribute_BROGeoTOP_GeNterpreteerdGeologischeEenheidInterval_geulgeneratie">geulgeneratie</a>
                   
                </td>
-               <td>Geulgeneratie.</td>
+               <td>Code die aangeeft of het interval tot een holocene fluviatiele zandbaan behoort, en
+                  zo ja van welke generatie c.q. relatieve ouderdom de zandbaan is.
+               </td>
                <td>
                   CHARACTERSTRING
                   
@@ -1183,7 +1181,7 @@
                   <a class="link" href="#detail_attribute_BROGeoTOP_Laag_grensvlakTop">grensvlak top</a>
                   
                </td>
-               <td>De ruimtelijke begrenzing van de bovenkant van een modellaag.</td>
+               <td>De ruimtelijke begrenzing van de bovenkant van een laag.</td>
                <td>
                   <a class="link" href="#global_class_BROGeoTOP_Grensvlak">Grensvlak</a>
                   
@@ -1195,7 +1193,7 @@
                   <a class="link" href="#detail_attribute_BROGeoTOP_Laag_grensvlakBasis">grensvlak basis</a>
                   
                </td>
-               <td>De ruimtelijke begrenzing van de onderkant van een modellaag.</td>
+               <td>De ruimtelijke begrenzing van de onderkant van een laag.</td>
                <td>
                   <a class="link" href="#global_class_BROGeoTOP_Grensvlak">Grensvlak</a>
                   
@@ -1233,7 +1231,7 @@
                   <a class="link" href="#detail_attribute_BROGeoTOP_Laag_breuk">breuk</a>
                   
                </td>
-               <td>Een breuk is</td>
+               <td>Een breuk is een zone in de basis van de Laag waarin breukwerking heeft plaatsgevonden.</td>
                <td>
                   <a class="link" href="#global_class_BROGeoTOP_GM_MultiCurve">GM_MultiCurve</a>
                   
@@ -1280,7 +1278,7 @@
                   [ 1 ]
                   
                </td>
-               <td>De unieke aanduiding van de Modelgebied waarvan het Voxel deel uit maakt.</td>
+               <td>De unieke aanduiding van het Modelgebied waarvan het Laag deel uit maakt.</td>
             </tr>
          </tbody>
       </table>
@@ -1336,7 +1334,7 @@
                   <a class="link" href="#detail_attribute_BROGeoTOP_Voxel_geologischeEenheid">geologische eenheid</a>
                   
                </td>
-               <td>Verwijzing naar de geologische eenheid waar de voxel onderdeel van uitmaakt.</td>
+               <td>De geologische eenheid waar de voxel onderdeel van uitmaakt.</td>
                <td>
                   <a class="link" href="#global_class_BROGeoTOP_GeologischeEenheid">Geologische eenheid</a>
                   
@@ -1345,10 +1343,10 @@
             </tr>
             <tr>
                <td>
-                  <a class="link" href="#detail_attribute_BROGeoTOP_Voxel_lithoklasse">lithoklasse</a>
+                  <a class="link" href="#detail_attribute_BROGeoTOP_Voxel_meestWaarschijnlijkeLithoklasse">meest waarschijnlijke lithoklasse</a>
                   
                </td>
-               <td>Verwijzing naar de lithoklasse waarmee de voxel gevuld is.</td>
+               <td>De meest waarschijnlijke lithoklasse die representatief is voor de voxel.</td>
                <td>
                   <a class="link" href="#global_class_BROGeoTOP_Lithoklasse">Lithoklasse</a>
                   
@@ -1519,7 +1517,7 @@
                   [ 1 ]
                   
                </td>
-               <td>De unieke aanduiding van het Modelgebied waarvan het Voxel deel uit maakt.</td>
+               <td>De unieke aanduiding van het Modelgebied waarvan de Voxel deel uit maakt.</td>
             </tr>
          </tbody>
       </table>
@@ -1572,7 +1570,7 @@
                      <a class="link" href="#detail_attribute_BROGeoTOP_Lithoklasse_code">code</a>
                      
                   </td>
-                  <td>Unieke, identificerende code van de lithoklasse, bijvoorbeeld ?k?.</td>
+                  <td>Unieke, identificerende code van de lithoklasse.</td>
                   <td>
                      CHARACTERSTRING
                      
@@ -1584,7 +1582,7 @@
                      <a class="link" href="#detail_attribute_BROGeoTOP_Lithoklasse_naam">naam</a>
                      
                   </td>
-                  <td>Naam van de lithoklasse, bijvoorbeeld ?klei?</td>
+                  <td>Naam van de lithoklasse.</td>
                   <td>
                      CHARACTERSTRING
                      
@@ -1626,7 +1624,7 @@
                   </td>
                   <td>RGB-waarde van de kleur waarmee de lithoklasse in visualisaties wordt weergegeven.</td>
                   <td>
-                     CHARACTERSTRING
+                     <a class="link" href="#global_class_BROGeoTOP_Kleur">Kleur</a>
                      
                   </td>
                   <td>1</td>
@@ -1681,7 +1679,7 @@
                      <a class="link" href="#detail_attribute_BROGeoTOP_GeologischeEenheid_code">code</a>
                      
                   </td>
-                  <td>Unieke, identificerende code van de geologische eenheid, bijvoorbeeld ?NAWA?</td>
+                  <td>Unieke, identificerende code van de geologische eenheid.</td>
                   <td>
                      CHARACTERSTRING
                      
@@ -1693,9 +1691,7 @@
                      <a class="link" href="#detail_attribute_BROGeoTOP_GeologischeEenheid_naam">naam</a>
                      
                   </td>
-                  <td>Naam van de geologische eenheid, bijvoorbeeld ?Formatie van Naaldwijk, Laagpakket
-                     van Walcheren?
-                  </td>
+                  <td>Naam van de geologische eenheid.</td>
                   <td>
                      CHARACTERSTRING
                      
@@ -1738,7 +1734,7 @@
                   </td>
                   <td>RGB-waarden van de kleur waarmee de geologische eenheid in visualisaties wordt weergegeven.</td>
                   <td>
-                     CHARACTERSTRING
+                     <a class="link" href="#global_class_BROGeoTOP_Kleur">Kleur</a>
                      
                   </td>
                   <td>1</td>
@@ -1877,6 +1873,88 @@
                   <td>Standaarddeviatie van de hoogteligging in m.</td>
                   <td>
                      <a class="link" href="#global_class_BROGeoTOP_CV_Coverage">CV_Coverage</a>
+                     
+                  </td>
+                  <td>1</td>
+               </tr>
+            </tbody>
+         </table>
+         
+      </section>
+      
+   </section>
+   <a class="anchor" name="graph_EAID_E63AD532_E801_4bdf_BFDF_CF1398C683EA"></a><a class="anchor" name="global_class_BROGeoTOP_Kleur"></a><section id="global_class_BROGeoTOP_Kleur">
+      <h4>Gestructureerd datatype Kleur</h4>
+      
+      <table>
+         <colgroup width="30%"></colgroup>
+         <colgroup width="70%"></colgroup>
+         <tbody>
+            <tr>
+               <th>Naam</th>
+               <td>Kleur</td>
+            </tr>
+            <tr>
+               <th>Herkomst</th>
+               <td>BRO</td>
+            </tr>
+            <tr>
+               <th>Definitie</th>
+               <td>Kleur volgens de kleurcodering van het RGB-kleursysteem, waarbij kleur wordt uitgedrukt
+                  met behulp van een combinatie van de drie primaire kleuren Rood-Groen-Blauw, uitgaande
+                  van additieve kleurmenging.
+               </td>
+            </tr>
+         </tbody>
+      </table>
+      
+      <section id="">
+         <h5>Overzicht data elementen </h5>
+         
+         <table>
+            <colgroup width="30%"></colgroup>
+            <colgroup width="50%"></colgroup>
+            <colgroup width="10%"></colgroup>
+            <colgroup width="10%"></colgroup>
+            <tbody>
+               <tr>
+                  <th>Data element</th>
+                  <th>Definitie</th>
+                  <th>Formaat</th>
+                  <th>Card</th>
+               </tr>
+               <tr>
+                  <td>
+                     <a class="link" href="#detail_attribute_BROGeoTOP_Kleur_rood">rood</a>
+                     
+                  </td>
+                  <td>Hoeveelheid (0 tm 255) van de kleur rood</td>
+                  <td>
+                     Integer
+                     
+                  </td>
+                  <td>1</td>
+               </tr>
+               <tr>
+                  <td>
+                     <a class="link" href="#detail_attribute_BROGeoTOP_Kleur_groen">groen</a>
+                     
+                  </td>
+                  <td>Hoeveelheid (0 tm 255) van de kleur groen</td>
+                  <td>
+                     Integer
+                     
+                  </td>
+                  <td>1</td>
+               </tr>
+               <tr>
+                  <td>
+                     <a class="link" href="#detail_attribute_BROGeoTOP_Kleur_blauw">blauw</a>
+                     
+                  </td>
+                  <td>Hoeveelheid (0 tm 255) van de kleur blauw</td>
+                  <td>
+                     Integer
                      
                   </td>
                   <td>1</td>
@@ -2037,10 +2115,6 @@
                   <td>TNO</td>
                </tr>
                <tr>
-                  <th>Toelichting</th>
-                  <td>De huidige versie heeft als naam "GeoTOP".</td>
-               </tr>
-               <tr>
                   <th>Mogelijk geen waarde</th>
                   <td>Nee</td>
                </tr>
@@ -2095,10 +2169,6 @@
                <tr>
                   <th>Herkomst definitie</th>
                   <td>TNO</td>
-               </tr>
-               <tr>
-                  <th>Toelichting</th>
-                  <td>De huidige versie heeft als nummer "v01r3".</td>
                </tr>
                <tr>
                   <th>Mogelijk geen waarde</th>
@@ -2385,10 +2455,6 @@
                   <td>TNO</td>
                </tr>
                <tr>
-                  <th>Toelichting</th>
-                  <td>Bijvoorbeeld "Rivierengebied".</td>
-               </tr>
-               <tr>
                   <th>Mogelijk geen waarde</th>
                   <td>Nee</td>
                </tr>
@@ -2445,10 +2511,6 @@
                   <td>TNO</td>
                </tr>
                <tr>
-                  <th>Toelichting</th>
-                  <td>Bijvoorbeeld "v01r3"</td>
-               </tr>
-               <tr>
                   <th>Mogelijk geen waarde</th>
                   <td>Nee</td>
                </tr>
@@ -2498,7 +2560,7 @@
                </tr>
                <tr>
                   <th>Definitie</th>
-                  <td>Eerste dag waarop de modelgebiedversie actueel is.</td>
+                  <td>Eerste dag waarop het modelgebied actueel is.</td>
                </tr>
                <tr>
                   <th>Herkomst definitie</th>
@@ -2554,11 +2616,15 @@
                </tr>
                <tr>
                   <th>Definitie</th>
-                  <td>Laatste dag waarop de modelgebiedversie actueel is.</td>
+                  <td>Laatste dag waarop het modelgebied actueel is.</td>
                </tr>
                <tr>
                   <th>Herkomst definitie</th>
                   <td>TNO</td>
+               </tr>
+               <tr>
+                  <th>Toelichting</th>
+                  <td>De huidige versie heeft (nog) geen einddatum.</td>
                </tr>
                <tr>
                   <th>Mogelijk geen waarde</th>
@@ -2666,7 +2732,7 @@
                </tr>
                <tr>
                   <th>Definitie</th>
-                  <td>Raster met de beschrijving van maaiveld en waterbodemhoogte in meters t.o.v. NAP.</td>
+                  <td>Raster met de beschrijving van maaiveld- en waterbodemhoogte in meters t.o.v. NAP.</td>
                </tr>
                <tr>
                   <th>Herkomst definitie</th>
@@ -3015,7 +3081,7 @@
                </tr>
                <tr>
                   <th>Definitie</th>
-                  <td>(hoofd)lithologie</td>
+                  <td>Code die de lithologie van het interval aangeeft.</td>
                </tr>
                <tr>
                   <th>Herkomst definitie</th>
@@ -3043,7 +3109,7 @@
                </tr>
                <tr>
                   <th>Formaat</th>
-                  <td>Integer</td>
+                  <td>CHARACTERSTRING</td>
                </tr>
                <tr>
                   <th>Indicatie afleidbaar</th>
@@ -4368,7 +4434,7 @@
                </tr>
                <tr>
                   <th>Definitie</th>
-                  <td>Aanduiding of gestuwd is.</td>
+                  <td>Indicatie of het interval door landijs gestuwd is.</td>
                </tr>
                <tr>
                   <th>Herkomst definitie</th>
@@ -4424,7 +4490,9 @@
                </tr>
                <tr>
                   <th>Definitie</th>
-                  <td>Geulgeneratie.</td>
+                  <td>Code die aangeeft of het interval tot een holocene fluviatiele zandbaan behoort, en
+                     zo ja van welke generatie c.q. relatieve ouderdom de zandbaan is.
+                  </td>
                </tr>
                <tr>
                   <th>Herkomst definitie</th>
@@ -4708,7 +4776,7 @@
                </tr>
                <tr>
                   <th>Definitie</th>
-                  <td>De ruimtelijke begrenzing van de bovenkant van een modellaag.</td>
+                  <td>De ruimtelijke begrenzing van de bovenkant van een laag.</td>
                </tr>
                <tr>
                   <th>Herkomst definitie</th>
@@ -4764,7 +4832,7 @@
                </tr>
                <tr>
                   <th>Definitie</th>
-                  <td>De ruimtelijke begrenzing van de onderkant van een modellaag.</td>
+                  <td>De ruimtelijke begrenzing van de onderkant van een laag.</td>
                </tr>
                <tr>
                   <th>Herkomst definitie</th>
@@ -4934,7 +5002,7 @@
                </tr>
                <tr>
                   <th>Definitie</th>
-                  <td>Een breuk is</td>
+                  <td>Een breuk is een zone in de basis van de Laag waarin breukwerking heeft plaatsgevonden.</td>
                </tr>
                <tr>
                   <th>Herkomst definitie</th>
@@ -5047,7 +5115,7 @@
                </tr>
                <tr>
                   <th>Definitie</th>
-                  <td>De unieke aanduiding van de Modelgebied waarvan het Voxel deel uit maakt.</td>
+                  <td>De unieke aanduiding van het Modelgebied waarvan het Laag deel uit maakt.</td>
                </tr>
                <tr>
                   <th>Herkomst definitie</th>
@@ -5102,7 +5170,7 @@
                </tr>
                <tr>
                   <th>Definitie</th>
-                  <td>Verwijzing naar de geologische eenheid waar de voxel onderdeel van uitmaakt.</td>
+                  <td>De geologische eenheid waar de voxel onderdeel van uitmaakt.</td>
                </tr>
                <tr>
                   <th>Herkomst definitie</th>
@@ -5140,8 +5208,8 @@
          </table>
          
       </section>
-      <a class="anchor" name="detail_attribute_BROGeoTOP_Voxel_lithoklasse"></a><section id="detail_attribute_BROGeoTOP_Voxel_lithoklasse">
-         <h6>Attribuutsoort details <a href="#global_class_BROGeoTOP_Voxel">Voxel</a> lithoklasse
+      <a class="anchor" name="detail_attribute_BROGeoTOP_Voxel_meestWaarschijnlijkeLithoklasse"></a><section id="detail_attribute_BROGeoTOP_Voxel_meestWaarschijnlijkeLithoklasse">
+         <h6>Attribuutsoort details <a href="#global_class_BROGeoTOP_Voxel">Voxel</a> meest waarschijnlijke lithoklasse
          </h6>
          
          <table>
@@ -5150,7 +5218,7 @@
             <tbody>
                <tr>
                   <th>Naam</th>
-                  <td>lithoklasse</td>
+                  <td>meest waarschijnlijke lithoklasse</td>
                </tr>
                <tr>
                   <th>Herkomst</th>
@@ -5158,7 +5226,7 @@
                </tr>
                <tr>
                   <th>Definitie</th>
-                  <td>Verwijzing naar de lithoklasse waarmee de voxel gevuld is.</td>
+                  <td>De meest waarschijnlijke lithoklasse die representatief is voor de voxel.</td>
                </tr>
                <tr>
                   <th>Herkomst definitie</th>
@@ -5902,7 +5970,7 @@
                </tr>
                <tr>
                   <th>Definitie</th>
-                  <td>De unieke aanduiding van het Modelgebied waarvan het Voxel deel uit maakt.</td>
+                  <td>De unieke aanduiding van het Modelgebied waarvan de Voxel deel uit maakt.</td>
                </tr>
                <tr>
                   <th>Herkomst definitie</th>
@@ -5960,7 +6028,7 @@
                </tr>
                <tr>
                   <th>Definitie</th>
-                  <td>Unieke, identificerende code van de lithoklasse, bijvoorbeeld ?k?.</td>
+                  <td>Unieke, identificerende code van de lithoklasse.</td>
                </tr>
                <tr>
                   <th>Indicatie kardinaliteit</th>
@@ -5992,7 +6060,7 @@
                </tr>
                <tr>
                   <th>Definitie</th>
-                  <td>Naam van de lithoklasse, bijvoorbeeld ?klei?</td>
+                  <td>Naam van de lithoklasse.</td>
                </tr>
                <tr>
                   <th>Indicatie kardinaliteit</th>
@@ -6100,7 +6168,7 @@
                </tr>
                <tr>
                   <th>Formaat</th>
-                  <td>CHARACTERSTRING</td>
+                  <td>Kleur</td>
                </tr>
             </tbody>
          </table>
@@ -6128,7 +6196,7 @@
                </tr>
                <tr>
                   <th>Definitie</th>
-                  <td>Unieke, identificerende code van de geologische eenheid, bijvoorbeeld ?NAWA?</td>
+                  <td>Unieke, identificerende code van de geologische eenheid.</td>
                </tr>
                <tr>
                   <th>Indicatie kardinaliteit</th>
@@ -6160,9 +6228,7 @@
                </tr>
                <tr>
                   <th>Definitie</th>
-                  <td>Naam van de geologische eenheid, bijvoorbeeld ?Formatie van Naaldwijk, Laagpakket
-                     van Walcheren?
-                  </td>
+                  <td>Naam van de geologische eenheid.</td>
                </tr>
                <tr>
                   <th>Indicatie kardinaliteit</th>
@@ -6271,7 +6337,7 @@
                </tr>
                <tr>
                   <th>Formaat</th>
-                  <td>CHARACTERSTRING</td>
+                  <td>Kleur</td>
                </tr>
             </tbody>
          </table>
@@ -6411,6 +6477,98 @@
                <tr>
                   <th>Formaat</th>
                   <td>CV_Coverage</td>
+               </tr>
+            </tbody>
+         </table>
+         
+      </section>
+      
+   </section>
+   <a class="anchor" name="detail_class_BROGeoTOP_Kleur"></a><section id="detail_class_BROGeoTOP_Kleur">
+      <h5>Gestructureerd datatype Kleur</h5>
+      <a class="anchor" name="detail_attribute_BROGeoTOP_Kleur_rood"></a><section id="detail_attribute_BROGeoTOP_Kleur_rood">
+         <h6>Data element details <a href="#global_class_BROGeoTOP_Kleur">Kleur</a> rood
+         </h6>
+         
+         <table>
+            <colgroup width="30%"></colgroup>
+            <colgroup width="70%"></colgroup>
+            <tbody>
+               <tr>
+                  <th>Naam</th>
+                  <td>rood</td>
+               </tr>
+               <tr>
+                  <th>Herkomst</th>
+                  <td>BRO</td>
+               </tr>
+               <tr>
+                  <th>Definitie</th>
+                  <td>Hoeveelheid (0 tm 255) van de kleur rood</td>
+               </tr>
+               <tr>
+                  <th>Indicatie kardinaliteit</th>
+                  <td>1</td>
+               </tr>
+               <tr>
+                  <th>Formaat</th>
+                  <td>Integer</td>
+               </tr>
+            </tbody>
+         </table>
+         
+      </section>
+      <a class="anchor" name="detail_attribute_BROGeoTOP_Kleur_groen"></a><section id="detail_attribute_BROGeoTOP_Kleur_groen">
+         <h6>Data element details <a href="#global_class_BROGeoTOP_Kleur">Kleur</a> groen
+         </h6>
+         
+         <table>
+            <colgroup width="30%"></colgroup>
+            <colgroup width="70%"></colgroup>
+            <tbody>
+               <tr>
+                  <th>Naam</th>
+                  <td>groen</td>
+               </tr>
+               <tr>
+                  <th>Definitie</th>
+                  <td>Hoeveelheid (0 tm 255) van de kleur groen</td>
+               </tr>
+               <tr>
+                  <th>Indicatie kardinaliteit</th>
+                  <td>1</td>
+               </tr>
+               <tr>
+                  <th>Formaat</th>
+                  <td>Integer</td>
+               </tr>
+            </tbody>
+         </table>
+         
+      </section>
+      <a class="anchor" name="detail_attribute_BROGeoTOP_Kleur_blauw"></a><section id="detail_attribute_BROGeoTOP_Kleur_blauw">
+         <h6>Data element details <a href="#global_class_BROGeoTOP_Kleur">Kleur</a> blauw
+         </h6>
+         
+         <table>
+            <colgroup width="30%"></colgroup>
+            <colgroup width="70%"></colgroup>
+            <tbody>
+               <tr>
+                  <th>Naam</th>
+                  <td>blauw</td>
+               </tr>
+               <tr>
+                  <th>Definitie</th>
+                  <td>Hoeveelheid (0 tm 255) van de kleur blauw</td>
+               </tr>
+               <tr>
+                  <th>Indicatie kardinaliteit</th>
+                  <td>1</td>
+               </tr>
+               <tr>
+                  <th>Formaat</th>
+                  <td>Integer</td>
                </tr>
             </tbody>
          </table>
