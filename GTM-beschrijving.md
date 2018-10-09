@@ -61,12 +61,12 @@ ontstaan uit een gestandaardiseerd werkproces:
 De onderlinge samenhang van geïnterpreteerde boormonsterprofielen, lagenmodel en
 voxelmodel is geïllustreerd in Figuur 3.1 – 3.3.
 
-![](media/23bdb6ab463f7d8888e3968b772b5528.png)
+![](media/0d3e1878ba25ed63a8e972aca67f898d.png)
 
 *Figuur 3.1: 3D weergave van boormonsterprofielen waarbij de kleuren
 verschillende geologische eenheden weergeven.*
 
-![](media/fe3046e1373fd1d822162317b51a073b.png)
+![](media/755f9cf2edc410149f963623f3c324e2.png)
 
 *Figuur 3.2: 3D weergave van een lagenmodel gebaseerd op de geïnterpreteerde
 boormonsterprofielen van Figuur 3.1. Van het lagenmodel zijn alleen de
@@ -74,12 +74,12 @@ basisvlakken weergegeven. Elk basisvlak is het resultaat van een ruimtelijke
 interpolatie van de in de boormonsterprofielen aangetroffen basissen van de
 betreffende geologische eenheid.*
 
-![](media/c943e2c190d16ba163c7e98791b819a9.png)
+![](media/6f38ef7a863c44c8d3114d1bbc92ea87.png)
 
 *Figuur 3.3: 3D weergave van het lagenmodel van Figuur 3.3 waarbij de kleuren in
 de boormonsterprofielen nu de lithoklasse weergeven.*
 
-![](media/925055538a500c4c26004117f0b9f30c.png)
+![](media/f2063d3c68a226127a2057094948ce96.png)
 
 *Figuur 3.4: 3D weergave van een voxelmodel waarbij de kleuren van de voxels de
 lithoklasse weergeven. De lithoklasse indeling in de voxels is het resultaat van
@@ -128,6 +128,9 @@ histogram, waarmee een visualisatie van de modelonzekerheid in de betreffende
 voxel wordt verkregen (Figuur 3.5).
 
 ![C:\\Delen\\Internet\\Publicaties Jan\\Onzekerheid\\Figuur 1 Modelonzekerheid individuele voxel.png](media/9b36e3569943eef3be94a99735be30bb.png)
+
+C:\\Delen\\Internet\\Publicaties Jan\\Onzekerheid\\Figuur 1 Modelonzekerheid
+individuele voxel.png
 
 C:\\Delen\\Internet\\Publicaties Jan\\Onzekerheid\\Figuur 1 Modelonzekerheid
 individuele voxel.png
