@@ -4,7 +4,7 @@
       type="BASISMODEL"
       id="EAPK_B7F6F3FF_D66A_49e0_90BF_91C92EBC7F47"
       generator-version="1.47.2"
-      generator-date="2018-10-09T06:23:34Z">
+      generator-date="2018-10-09T06:30:58Z">
    <section type="DOMAIN" name="BRO: GeoTOP" id="global_package_BROGeoTOP">
       <section type="IMAGEMAPS"
                name="BRO: GeoTOP-imagemap"
@@ -958,7 +958,7 @@
                </part>
                <part type="CFG-DOC-DEFINITIE">
                   <item>Definitie</item>
-                  <item>De geologische eenheid waartoe het interval behoort.</item>
+                  <item>Interpretatie van een in GeoTOP gebruikt boormonsterprofiel als opeenvolging van boorbeschrijvingsintervallen van gelijke geologische eenheid.</item>
                </part>
                <part type="CFG-DOC-HERKOMSTDEFINITIE">
                   <item>Herkomst definitie</item>
@@ -988,7 +988,7 @@
                         <item type="detail"
                               idref="detail_attribute_BROGeoTOP_GeNterpreteerdGeologischeEenheidInterval_geologischeEenheid">geologische eenheid</item>
                      </item>
-                     <item>Een geologische eenheid omvat ruimtelijk samenhangende delen van de ondergrond met overeenkomstige lithologische en genetische eigenschappen.</item>
+                     <item>De geologische eenheid waartoe het interval behoort.</item>
                      <item>
                         <item type="global" idref="global_class_BROGeoTOP_GeologischeEenheid">Geologische eenheid</item>
                      </item>
@@ -1181,11 +1181,6 @@
                <part type="CFG-DOC-HERKOMSTDEFINITIE">
                   <item>Herkomst definitie</item>
                   <item>TNO</item>
-               </part>
-               <part type="CFG-DOC-TOELICHTING">
-                  <item>Toelichting</item>
-                  <item>Een niet in het gegevensmodel weergegeven relatie is dat een
-voxel zich binnen de grensvlakken van een modellaag bevindt.</item>
                </part>
             </content>
             <section type="SHORT-ATTRIBUTES">
@@ -4134,7 +4129,7 @@ voxel zich binnen de grensvlakken van een modellaag bevindt.</item>
                      </part>
                      <part type="CFG-DOC-DEFINITIE">
                         <item>Definitie</item>
-                        <item>Een geologische eenheid omvat ruimtelijk samenhangende delen van de ondergrond met overeenkomstige lithologische en genetische eigenschappen.</item>
+                        <item>De geologische eenheid waartoe het interval behoort.</item>
                      </part>
                      <part type="CFG-DOC-HERKOMSTDEFINITIE">
                         <item>Herkomst definitie</item>
