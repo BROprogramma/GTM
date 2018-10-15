@@ -3,19 +3,19 @@
       subpath="GeoTOP/BRO: GeoTOP/20180925"
       type="BASISMODEL"
       id="EAPK_B7F6F3FF_D66A_49e0_90BF_91C92EBC7F47"
-      generator-version="1.47.2"
-      generator-date="2018-10-09T06:30:58Z">
+      generator-version="1.47.3"
+      generator-date="2018-10-15T05:41:04Z">
    <section type="DOMAIN" name="BRO: GeoTOP" id="global_package_BROGeoTOP">
       <section type="IMAGEMAPS"
                name="BRO: GeoTOP-imagemap"
                id="imagemap_package_BROGeoTOP">
          <section type="IMAGEMAP"
-                  name="Geïnterpreteerde boormonsterprofielen met beschrijvings- en interpretatie-intervallen - overzicht"
+                  name="Geïnterpreteerde boormonsterbeschrijvingen met beschrijvings- en interpretatie-intervallen - overzicht"
                   id="EAID_7F351635_2E64_440e_B381_9C272D96E4CD">
             <content>
                <part type="CFG-DOC-NAAM">
                   <item>Naam</item>
-                  <item>Geïnterpreteerde boormonsterprofielen met beschrijvings- en interpretatie-intervallen - overzicht</item>
+                  <item>Geïnterpreteerde boormonsterbeschrijvingen met beschrijvings- en interpretatie-intervallen - overzicht</item>
                </part>
                <part type="CFG-DOC-DESCRIPTION">
                   <item>Omschrijving</item>
@@ -309,17 +309,17 @@
                      <item>
                         <item>
                            <item type="global"
-                                 idref="global_class_BROGeoTOP_GeNterpreteerdBoormonsterprofiel">Geïnterpreteerd boormonsterprofiel</item>
+                                 idref="global_class_BROGeoTOP_GeNterpreteerdeBoormonsterbeschrijving">Geïnterpreteerde boormonsterbeschrijving</item>
                         </item>
                         <item>[ 1 .. * ]</item>
                         <item>
                            <item type="detail"
-                                 idref="detail_association_BROGeoTOP_GeNterpreteerdBoormonsterprofiel_gerelateerdeModelgebied">behoort tot: gerelateerdeModelgebied</item>
+                                 idref="detail_association_BROGeoTOP_GeNterpreteerdeBoormonsterbeschrijving_gerelateerdeModelgebied">behoort tot: gerelateerdeModelgebied</item>
                         </item>
                         <item>Modelgebied</item>
                         <item>[ 1 ]</item>
                      </item>
-                     <item>Éen geïnterpreteerd boormonsterprofiel behoort tot één Modelgebied.</item>
+                     <item>Éen Geïnterpreteerde boormonsterbeschrijving behoort tot één Modelgebied.</item>
                   </part>
                   <part>
                      <item>
@@ -375,17 +375,17 @@
                      <item>
                         <item>
                            <item type="global"
-                                 idref="global_class_BROGeoTOP_GeNterpreteerdBoormonsterprofiel">Geïnterpreteerd boormonsterprofiel</item>
+                                 idref="global_class_BROGeoTOP_GeNterpreteerdeBoormonsterbeschrijving">Geïnterpreteerde boormonsterbeschrijving</item>
                         </item>
                         <item>[ 1 .. * ]</item>
                         <item>
                            <item type="detail"
-                                 idref="detail_association_BROGeoTOP_GeNterpreteerdBoormonsterprofiel_gerelateerdeModelgebied">behoort tot: gerelateerdeModelgebied</item>
+                                 idref="detail_association_BROGeoTOP_GeNterpreteerdeBoormonsterbeschrijving_gerelateerdeModelgebied">behoort tot: gerelateerdeModelgebied</item>
                         </item>
                         <item>Modelgebied</item>
                         <item>[ 1 ]</item>
                      </item>
-                     <item>De unieke aanduiding van het Modelgebied waartoe het Geïnterpreteerd boormonsterprofiel behoort.</item>
+                     <item>De unieke aanduiding van het Modelgebied waartoe het Geïnterpreteerde boormonsterbeschrijving behoort.</item>
                   </part>
                   <part>
                      <item>
@@ -420,14 +420,14 @@
                </content>
             </section>
          </section>
-         <section name="Geïnterpreteerd boormonsterprofiel"
+         <section name="Geïnterpreteerde boormonsterbeschrijving"
                   type="OBJECTTYPE"
-                  id="global_class_BROGeoTOP_GeNterpreteerdBoormonsterprofiel"
+                  id="global_class_BROGeoTOP_GeNterpreteerdeBoormonsterbeschrijving"
                   uuid="EAID_13ACBEB4_197A_469b_A941_120C476F863B">
             <content>
                <part type="CFG-DOC-NAAM">
                   <item>Naam</item>
-                  <item>Geïnterpreteerd boormonsterprofiel</item>
+                  <item>Geïnterpreteerde boormonsterbeschrijving</item>
                </part>
                <part type="CFG-DOC-HERKOMST">
                   <item>Herkomst</item>
@@ -435,7 +435,7 @@
                </part>
                <part type="CFG-DOC-DEFINITIE">
                   <item>Definitie</item>
-                  <item>Een in een modelgebied gebruikt boormonsterprofiel waarbij een interpretatie in geologische eenheden en in lithoklassen is gemaakt.</item>
+                  <item>Een in een modelgebied gebruikt boormonsterbeschrijving waarbij een interpretatie in geologische eenheden en in lithoklassen is gemaakt.</item>
                </part>
                <part type="CFG-DOC-HERKOMSTDEFINITIE">
                   <item>Herkomst definitie</item>
@@ -443,7 +443,7 @@
                </part>
                <part type="CFG-DOC-TOELICHTING">
                   <item>Toelichting</item>
-                  <item>Bij het construeren van een modelgebiedversie wordt op een zeker moment een momentopname (snapshot) gemaakt van de boormonsterprofielen en de bijbehorende boorbeschrijvingsintervallen in de bron-databank. De interpretaties van de boormonsterprofielen worden vervolgens gebaseerd op deze momentopname. Alle wijzigingen die na de momentopname in de DINO-databank worden aangebracht, zullen daarom niet zichtbaar zijn in de betreffende modelgebiedversie.</item>
+                  <item>Bij het construeren van een modelgebiedversie wordt op een zeker moment een momentopname (snapshot) gemaakt van de boormonsterbeschrijvingen en de bijbehorende boorbeschrijvingsintervallen in de bron-databank. De interpretaties van de boormonsterbeschrijvingen worden vervolgens gebaseerd op deze momentopname. Alle wijzigingen die na de momentopname in de DINO-databank worden aangebracht, zullen daarom niet zichtbaar zijn in de betreffende modelgebiedversie.</item>
                </part>
             </content>
             <section type="SHORT-ATTRIBUTES">
@@ -456,9 +456,9 @@
                   <part>
                      <item>
                         <item type="detail"
-                              idref="detail_attribute_BROGeoTOP_GeNterpreteerdBoormonsterprofiel_boornummer">boornummer</item>
+                              idref="detail_attribute_BROGeoTOP_GeNterpreteerdeBoormonsterbeschrijving_boornummer">boornummer</item>
                      </item>
-                     <item>NITG-nummer van het boormonsterprofiel.</item>
+                     <item>NITG-nummer van het boormonsterbeschrijving.</item>
                      <item>
                         <item type="global">CHARACTERSTRING</item>
                      </item>
@@ -467,9 +467,9 @@
                   <part>
                      <item>
                         <item type="detail"
-                              idref="detail_attribute_BROGeoTOP_GeNterpreteerdBoormonsterprofiel_geometrie">geometrie</item>
+                              idref="detail_attribute_BROGeoTOP_GeNterpreteerdeBoormonsterbeschrijving_geometrie">geometrie</item>
                      </item>
-                     <item>Puntgeometrie met de ligging en hoogte van het boormonsterprofiel.</item>
+                     <item>Puntgeometrie met de ligging en hoogte van het boormonsterbeschrijving.</item>
                      <item>
                         <item type="global" idref="global_class_BROGeoTOP_GM_Point">GM_Point</item>
                      </item>
@@ -478,9 +478,9 @@
                   <part>
                      <item>
                         <item type="detail"
-                              idref="detail_attribute_BROGeoTOP_GeNterpreteerdBoormonsterprofiel_einddiepte">einddiepte</item>
+                              idref="detail_attribute_BROGeoTOP_GeNterpreteerdeBoormonsterbeschrijving_einddiepte">einddiepte</item>
                      </item>
-                     <item>Diepte waartoe geboord is in mm gerekend vanaf de bovenkant van het boormonsterprofiel.</item>
+                     <item>Diepte waartoe geboord is in mm gerekend vanaf de bovenkant van het boormonsterbeschrijving.</item>
                      <item>
                         <item type="global">Integer</item>
                      </item>
@@ -495,18 +495,18 @@
                   <itemtype type="ASSOCIATION-DEFINITION"/>
                   <part>
                      <item>
-                        <item>Geïnterpreteerd boormonsterprofiel</item>
+                        <item>Geïnterpreteerde boormonsterbeschrijving</item>
                         <item>[ 1 .. * ]</item>
                         <item>
                            <item type="detail"
-                                 idref="detail_association_BROGeoTOP_GeNterpreteerdBoormonsterprofiel_gerelateerdeModelgebied">behoort tot: gerelateerdeModelgebied</item>
+                                 idref="detail_association_BROGeoTOP_GeNterpreteerdeBoormonsterbeschrijving_gerelateerdeModelgebied">behoort tot: gerelateerdeModelgebied</item>
                         </item>
                         <item>
                            <item type="global" idref="global_class_BROGeoTOP_Modelgebied">Modelgebied</item>
                         </item>
                         <item>[ 1 ]</item>
                      </item>
-                     <item>Éen geïnterpreteerd boormonsterprofiel behoort tot één Modelgebied.</item>
+                     <item>Éen Geïnterpreteerde boormonsterbeschrijving behoort tot één Modelgebied.</item>
                   </part>
                   <part>
                      <item>
@@ -516,12 +516,12 @@
                         <item>[ 1 .. * ]</item>
                         <item>
                            <item type="detail"
-                                 idref="detail_association_BROGeoTOP_Boorbeschrijvingsinterval_gerelateerdeBoormonsterprofiel">maakt deel uit van: gerelateerdeBoormonsterprofiel</item>
+                                 idref="detail_association_BROGeoTOP_Boorbeschrijvingsinterval_gerelateerdeboormonsterbeschrijving">maakt deel uit van: gerelateerdeboormonsterbeschrijving</item>
                         </item>
-                        <item>Geïnterpreteerd boormonsterprofiel</item>
+                        <item>Geïnterpreteerde boormonsterbeschrijving</item>
                         <item>[ 1 ]</item>
                      </item>
-                     <item>Één Boorbeschrijvingsinterval maakt deelt uit van één Geïnterpreteerd boormonsterprofiel.</item>
+                     <item>Één Boorbeschrijvingsinterval maakt deelt uit van één Geïnterpreteerde boormonsterbeschrijving.</item>
                   </part>
                   <part>
                      <item>
@@ -532,12 +532,12 @@
                         <item>[ 1 .. * ]</item>
                         <item>
                            <item type="detail"
-                                 idref="detail_association_BROGeoTOP_GeNterpreteerdGeologischeEenheidInterval_gerelateerdeBoormonsterprofiel">behoort tot: gerelateerdeBoormonsterprofiel</item>
+                                 idref="detail_association_BROGeoTOP_GeNterpreteerdGeologischeEenheidInterval_gerelateerdeboormonsterbeschrijving">behoort tot: gerelateerdeboormonsterbeschrijving</item>
                         </item>
-                        <item>Geïnterpreteerd boormonsterprofiel</item>
+                        <item>Geïnterpreteerde boormonsterbeschrijving</item>
                         <item>[ 1 ]</item>
                      </item>
-                     <item>Één Geïnterpreteerde geologische eenheid-interval behoort tot één Geïnterpreteerd boormonsterprofiel.</item>
+                     <item>Één Geïnterpreteerde geologische eenheid-interval behoort tot één Geïnterpreteerde boormonsterbeschrijving.</item>
                   </part>
                   <part>
                      <item>
@@ -548,12 +548,12 @@
                         <item>[ 1 .. * ]</item>
                         <item>
                            <item type="detail"
-                                 idref="detail_association_BROGeoTOP_GeinterpreteerdLithoklasseInterval_gerelateerdeBoormonsterprofiel">behoort tot: gerelateerdeBoormonsterprofiel</item>
+                                 idref="detail_association_BROGeoTOP_GeinterpreteerdLithoklasseInterval_gerelateerdeboormonsterbeschrijving">behoort tot: gerelateerdeboormonsterbeschrijving</item>
                         </item>
-                        <item>Geïnterpreteerd boormonsterprofiel</item>
+                        <item>Geïnterpreteerde boormonsterbeschrijving</item>
                         <item>[ 1 ]</item>
                      </item>
-                     <item>Één Geïnterpreteerd lithoklasse-interval behoort tot één Geïnterpreteerd boormonsterprofiel.</item>
+                     <item>Één Geïnterpreteerd lithoklasse-interval behoort tot één Geïnterpreteerde boormonsterbeschrijving.</item>
                   </part>
                </content>
                <content approach="target">
@@ -562,18 +562,18 @@
                   <itemtype type="ROLE-DEFINITION"/>
                   <part>
                      <item>
-                        <item>Geïnterpreteerd boormonsterprofiel</item>
+                        <item>Geïnterpreteerde boormonsterbeschrijving</item>
                         <item>[ 1 .. * ]</item>
                         <item>
                            <item type="detail"
-                                 idref="detail_association_BROGeoTOP_GeNterpreteerdBoormonsterprofiel_gerelateerdeModelgebied">behoort tot: gerelateerdeModelgebied</item>
+                                 idref="detail_association_BROGeoTOP_GeNterpreteerdeBoormonsterbeschrijving_gerelateerdeModelgebied">behoort tot: gerelateerdeModelgebied</item>
                         </item>
                         <item>
                            <item type="global" idref="global_class_BROGeoTOP_Modelgebied">Modelgebied</item>
                         </item>
                         <item>[ 1 ]</item>
                      </item>
-                     <item>De unieke aanduiding van het Modelgebied waartoe het Geïnterpreteerd boormonsterprofiel behoort.</item>
+                     <item>De unieke aanduiding van het Modelgebied waartoe het Geïnterpreteerde boormonsterbeschrijving behoort.</item>
                   </part>
                   <part>
                      <item>
@@ -583,12 +583,12 @@
                         <item>[ 1 .. * ]</item>
                         <item>
                            <item type="detail"
-                                 idref="detail_association_BROGeoTOP_Boorbeschrijvingsinterval_gerelateerdeBoormonsterprofiel">maakt deel uit van: gerelateerdeBoormonsterprofiel</item>
+                                 idref="detail_association_BROGeoTOP_Boorbeschrijvingsinterval_gerelateerdeboormonsterbeschrijving">maakt deel uit van: gerelateerdeboormonsterbeschrijving</item>
                         </item>
-                        <item>Geïnterpreteerd boormonsterprofiel</item>
+                        <item>Geïnterpreteerde boormonsterbeschrijving</item>
                         <item>[ 1 ]</item>
                      </item>
-                     <item>De unieke aanduiding van het Geïnterpreteerde boormonsterprofiel waarvan het Boorbeschrijvingsinterval deel uit maakt.</item>
+                     <item>De unieke aanduiding van het Geïnterpreteerde boormonsterbeschrijving waarvan het Boorbeschrijvingsinterval deel uit maakt.</item>
                   </part>
                   <part>
                      <item>
@@ -599,12 +599,12 @@
                         <item>[ 1 .. * ]</item>
                         <item>
                            <item type="detail"
-                                 idref="detail_association_BROGeoTOP_GeNterpreteerdGeologischeEenheidInterval_gerelateerdeBoormonsterprofiel">behoort tot: gerelateerdeBoormonsterprofiel</item>
+                                 idref="detail_association_BROGeoTOP_GeNterpreteerdGeologischeEenheidInterval_gerelateerdeboormonsterbeschrijving">behoort tot: gerelateerdeboormonsterbeschrijving</item>
                         </item>
-                        <item>Geïnterpreteerd boormonsterprofiel</item>
+                        <item>Geïnterpreteerde boormonsterbeschrijving</item>
                         <item>[ 1 ]</item>
                      </item>
-                     <item>De unieke aanduiding van het Geïnterpreteerd boormonsterprofiel waartoe het Geïnterpreteerd geologische eenheid-interval behoort.</item>
+                     <item>De unieke aanduiding van het Geïnterpreteerde boormonsterbeschrijving waartoe het Geïnterpreteerd geologische eenheid-interval behoort.</item>
                   </part>
                   <part>
                      <item>
@@ -615,12 +615,12 @@
                         <item>[ 1 .. * ]</item>
                         <item>
                            <item type="detail"
-                                 idref="detail_association_BROGeoTOP_GeinterpreteerdLithoklasseInterval_gerelateerdeBoormonsterprofiel">behoort tot: gerelateerdeBoormonsterprofiel</item>
+                                 idref="detail_association_BROGeoTOP_GeinterpreteerdLithoklasseInterval_gerelateerdeboormonsterbeschrijving">behoort tot: gerelateerdeboormonsterbeschrijving</item>
                         </item>
-                        <item>Geïnterpreteerd boormonsterprofiel</item>
+                        <item>Geïnterpreteerde boormonsterbeschrijving</item>
                         <item>[ 1 ]</item>
                      </item>
-                     <item>De unieke aanduiding van het Geïnterpreteerd boormonsterprofiel waartoe het Geïnterpreteerd lithoklasse-interval behoort.</item>
+                     <item>De unieke aanduiding van het Geïnterpreteerde boormonsterbeschrijving waartoe het Geïnterpreteerd lithoklasse-interval behoort.</item>
                   </part>
                </content>
             </section>
@@ -640,7 +640,7 @@
                </part>
                <part type="CFG-DOC-DEFINITIE">
                   <item>Definitie</item>
-                  <item>Boorbeschrijvingsinterval van een in een modelgebied geïnterpreteerd boormonsterprofiel.</item>
+                  <item>Boorbeschrijvingsinterval van een in een modelgebied Geïnterpreteerde boormonsterbeschrijving.</item>
                </part>
                <part type="CFG-DOC-HERKOMSTDEFINITIE">
                   <item>Herkomst definitie</item>
@@ -659,7 +659,7 @@
                         <item type="detail"
                               idref="detail_attribute_BROGeoTOP_Boorbeschrijvingsinterval_interval">interval</item>
                      </item>
-                     <item>Top en basis van het interval in mm vanaf de bovenkant van het boormonsterprofiel.</item>
+                     <item>Top en basis van het interval in mm vanaf de bovenkant van het boormonsterbeschrijving.</item>
                      <item>
                         <item type="global" idref="global_class_BROGeoTOP_Interval">Interval</item>
                      </item>
@@ -714,7 +714,7 @@
                         <item type="detail"
                               idref="detail_attribute_BROGeoTOP_Boorbeschrijvingsinterval_bijmengingSilt">bijmenging silt</item>
                      </item>
-                     <item>Code die de mate van bijmenging van klei aangeeft.</item>
+                     <item>Code die de mate van bijmenging van silt aangeeft.</item>
                      <item>
                         <item type="global">CHARACTERSTRING</item>
                      </item>
@@ -909,15 +909,15 @@
                         <item>[ 1 .. * ]</item>
                         <item>
                            <item type="detail"
-                                 idref="detail_association_BROGeoTOP_Boorbeschrijvingsinterval_gerelateerdeBoormonsterprofiel">maakt deel uit van: gerelateerdeBoormonsterprofiel</item>
+                                 idref="detail_association_BROGeoTOP_Boorbeschrijvingsinterval_gerelateerdeboormonsterbeschrijving">maakt deel uit van: gerelateerdeboormonsterbeschrijving</item>
                         </item>
                         <item>
                            <item type="global"
-                                 idref="global_class_BROGeoTOP_GeNterpreteerdBoormonsterprofiel">Geïnterpreteerd boormonsterprofiel</item>
+                                 idref="global_class_BROGeoTOP_GeNterpreteerdeBoormonsterbeschrijving">Geïnterpreteerde boormonsterbeschrijving</item>
                         </item>
                         <item>[ 1 ]</item>
                      </item>
-                     <item>Één Boorbeschrijvingsinterval maakt deelt uit van één Geïnterpreteerd boormonsterprofiel.</item>
+                     <item>Één Boorbeschrijvingsinterval maakt deelt uit van één Geïnterpreteerde boormonsterbeschrijving.</item>
                   </part>
                </content>
                <content approach="target">
@@ -930,15 +930,15 @@
                         <item>[ 1 .. * ]</item>
                         <item>
                            <item type="detail"
-                                 idref="detail_association_BROGeoTOP_Boorbeschrijvingsinterval_gerelateerdeBoormonsterprofiel">maakt deel uit van: gerelateerdeBoormonsterprofiel</item>
+                                 idref="detail_association_BROGeoTOP_Boorbeschrijvingsinterval_gerelateerdeboormonsterbeschrijving">maakt deel uit van: gerelateerdeboormonsterbeschrijving</item>
                         </item>
                         <item>
                            <item type="global"
-                                 idref="global_class_BROGeoTOP_GeNterpreteerdBoormonsterprofiel">Geïnterpreteerd boormonsterprofiel</item>
+                                 idref="global_class_BROGeoTOP_GeNterpreteerdeBoormonsterbeschrijving">Geïnterpreteerde boormonsterbeschrijving</item>
                         </item>
                         <item>[ 1 ]</item>
                      </item>
-                     <item>De unieke aanduiding van het Geïnterpreteerde boormonsterprofiel waarvan het Boorbeschrijvingsinterval deel uit maakt.</item>
+                     <item>De unieke aanduiding van het Geïnterpreteerde boormonsterbeschrijving waarvan het Boorbeschrijvingsinterval deel uit maakt.</item>
                   </part>
                </content>
             </section>
@@ -958,7 +958,7 @@
                </part>
                <part type="CFG-DOC-DEFINITIE">
                   <item>Definitie</item>
-                  <item>Interpretatie van een in GeoTOP gebruikt boormonsterprofiel als opeenvolging van boorbeschrijvingsintervallen van gelijke geologische eenheid.</item>
+                  <item>De geologische eenheid waartoe het interval behoort.</item>
                </part>
                <part type="CFG-DOC-HERKOMSTDEFINITIE">
                   <item>Herkomst definitie</item>
@@ -977,7 +977,7 @@
                         <item type="detail"
                               idref="detail_attribute_BROGeoTOP_GeNterpreteerdGeologischeEenheidInterval_interval">interval</item>
                      </item>
-                     <item>Top en basis van het interval in mm vanaf de bovenkant van het boormonsterprofiel.</item>
+                     <item>Top en basis van het interval in mm vanaf de bovenkant van het boormonsterbeschrijving.</item>
                      <item>
                         <item type="global" idref="global_class_BROGeoTOP_Interval">Interval</item>
                      </item>
@@ -988,7 +988,7 @@
                         <item type="detail"
                               idref="detail_attribute_BROGeoTOP_GeNterpreteerdGeologischeEenheidInterval_geologischeEenheid">geologische eenheid</item>
                      </item>
-                     <item>De geologische eenheid waartoe het interval behoort.</item>
+                     <item>Een geologische eenheid omvat ruimtelijk samenhangende delen van de ondergrond met overeenkomstige lithologische en genetische eigenschappen.</item>
                      <item>
                         <item type="global" idref="global_class_BROGeoTOP_GeologischeEenheid">Geologische eenheid</item>
                      </item>
@@ -1029,15 +1029,15 @@
                         <item>[ 1 .. * ]</item>
                         <item>
                            <item type="detail"
-                                 idref="detail_association_BROGeoTOP_GeNterpreteerdGeologischeEenheidInterval_gerelateerdeBoormonsterprofiel">behoort tot: gerelateerdeBoormonsterprofiel</item>
+                                 idref="detail_association_BROGeoTOP_GeNterpreteerdGeologischeEenheidInterval_gerelateerdeboormonsterbeschrijving">behoort tot: gerelateerdeboormonsterbeschrijving</item>
                         </item>
                         <item>
                            <item type="global"
-                                 idref="global_class_BROGeoTOP_GeNterpreteerdBoormonsterprofiel">Geïnterpreteerd boormonsterprofiel</item>
+                                 idref="global_class_BROGeoTOP_GeNterpreteerdeBoormonsterbeschrijving">Geïnterpreteerde boormonsterbeschrijving</item>
                         </item>
                         <item>[ 1 ]</item>
                      </item>
-                     <item>Één Geïnterpreteerde geologische eenheid-interval behoort tot één Geïnterpreteerd boormonsterprofiel.</item>
+                     <item>Één Geïnterpreteerde geologische eenheid-interval behoort tot één Geïnterpreteerde boormonsterbeschrijving.</item>
                   </part>
                </content>
                <content approach="target">
@@ -1050,15 +1050,15 @@
                         <item>[ 1 .. * ]</item>
                         <item>
                            <item type="detail"
-                                 idref="detail_association_BROGeoTOP_GeNterpreteerdGeologischeEenheidInterval_gerelateerdeBoormonsterprofiel">behoort tot: gerelateerdeBoormonsterprofiel</item>
+                                 idref="detail_association_BROGeoTOP_GeNterpreteerdGeologischeEenheidInterval_gerelateerdeboormonsterbeschrijving">behoort tot: gerelateerdeboormonsterbeschrijving</item>
                         </item>
                         <item>
                            <item type="global"
-                                 idref="global_class_BROGeoTOP_GeNterpreteerdBoormonsterprofiel">Geïnterpreteerd boormonsterprofiel</item>
+                                 idref="global_class_BROGeoTOP_GeNterpreteerdeBoormonsterbeschrijving">Geïnterpreteerde boormonsterbeschrijving</item>
                         </item>
                         <item>[ 1 ]</item>
                      </item>
-                     <item>De unieke aanduiding van het Geïnterpreteerd boormonsterprofiel waartoe het Geïnterpreteerd geologische eenheid-interval behoort.</item>
+                     <item>De unieke aanduiding van het Geïnterpreteerde boormonsterbeschrijving waartoe het Geïnterpreteerd geologische eenheid-interval behoort.</item>
                   </part>
                </content>
             </section>
@@ -1078,7 +1078,7 @@
                </part>
                <part type="CFG-DOC-DEFINITIE">
                   <item>Definitie</item>
-                  <item>Interpretatie van een in GeoTOP gebruikt boormonsterprofiel als opeenvolging van boorbeschrijvingsintervallen van gelijke lithoklasse.</item>
+                  <item>Interpretatie van een in GeoTOP gebruikt boormonsterbeschrijving als opeenvolging van boorbeschrijvingsintervallen van gelijke lithoklasse.</item>
                </part>
                <part type="CFG-DOC-HERKOMSTDEFINITIE">
                   <item>Herkomst definitie</item>
@@ -1097,7 +1097,7 @@
                         <item type="detail"
                               idref="detail_attribute_BROGeoTOP_GeinterpreteerdLithoklasseInterval_interval">interval</item>
                      </item>
-                     <item>Top en basis van het interval in mm vanaf de bovenkant van het boormonsterprofiel.</item>
+                     <item>Top en basis van het interval in mm vanaf de bovenkant van het boormonsterbeschrijving.</item>
                      <item>
                         <item type="global" idref="global_class_BROGeoTOP_Interval">Interval</item>
                      </item>
@@ -1127,15 +1127,15 @@
                         <item>[ 1 .. * ]</item>
                         <item>
                            <item type="detail"
-                                 idref="detail_association_BROGeoTOP_GeinterpreteerdLithoklasseInterval_gerelateerdeBoormonsterprofiel">behoort tot: gerelateerdeBoormonsterprofiel</item>
+                                 idref="detail_association_BROGeoTOP_GeinterpreteerdLithoklasseInterval_gerelateerdeboormonsterbeschrijving">behoort tot: gerelateerdeboormonsterbeschrijving</item>
                         </item>
                         <item>
                            <item type="global"
-                                 idref="global_class_BROGeoTOP_GeNterpreteerdBoormonsterprofiel">Geïnterpreteerd boormonsterprofiel</item>
+                                 idref="global_class_BROGeoTOP_GeNterpreteerdeBoormonsterbeschrijving">Geïnterpreteerde boormonsterbeschrijving</item>
                         </item>
                         <item>[ 1 ]</item>
                      </item>
-                     <item>Één Geïnterpreteerd lithoklasse-interval behoort tot één Geïnterpreteerd boormonsterprofiel.</item>
+                     <item>Één Geïnterpreteerd lithoklasse-interval behoort tot één Geïnterpreteerde boormonsterbeschrijving.</item>
                   </part>
                </content>
                <content approach="target">
@@ -1148,15 +1148,15 @@
                         <item>[ 1 .. * ]</item>
                         <item>
                            <item type="detail"
-                                 idref="detail_association_BROGeoTOP_GeinterpreteerdLithoklasseInterval_gerelateerdeBoormonsterprofiel">behoort tot: gerelateerdeBoormonsterprofiel</item>
+                                 idref="detail_association_BROGeoTOP_GeinterpreteerdLithoklasseInterval_gerelateerdeboormonsterbeschrijving">behoort tot: gerelateerdeboormonsterbeschrijving</item>
                         </item>
                         <item>
                            <item type="global"
-                                 idref="global_class_BROGeoTOP_GeNterpreteerdBoormonsterprofiel">Geïnterpreteerd boormonsterprofiel</item>
+                                 idref="global_class_BROGeoTOP_GeNterpreteerdeBoormonsterbeschrijving">Geïnterpreteerde boormonsterbeschrijving</item>
                         </item>
                         <item>[ 1 ]</item>
                      </item>
-                     <item>De unieke aanduiding van het Geïnterpreteerd boormonsterprofiel waartoe het Geïnterpreteerd lithoklasse-interval behoort.</item>
+                     <item>De unieke aanduiding van het Geïnterpreteerde boormonsterbeschrijving waartoe het Geïnterpreteerd lithoklasse-interval behoort.</item>
                   </part>
                </content>
             </section>
@@ -1181,6 +1181,11 @@
                <part type="CFG-DOC-HERKOMSTDEFINITIE">
                   <item>Herkomst definitie</item>
                   <item>TNO</item>
+               </part>
+               <part type="CFG-DOC-TOELICHTING">
+                  <item>Toelichting</item>
+                  <item>Een niet in het gegevensmodel weergegeven relatie is dat een
+voxel zich binnen de grensvlakken van een modellaag bevindt.</item>
                </part>
             </content>
             <section type="SHORT-ATTRIBUTES">
@@ -1690,7 +1695,7 @@
                </part>
                <part type="CFG-DOC-DEFINITIE">
                   <item>Definitie</item>
-                  <item>Top en basis van het interval in mm vanaf de bovenkant van het boormonsterprofiel.</item>
+                  <item>Top en basis van het interval in mm vanaf de bovenkant van het boormonsterbeschrijving.</item>
                </part>
             </content>
             <section type="SHORT-DATAELEMENTS">
@@ -1704,7 +1709,7 @@
                      <item>
                         <item type="detail" idref="detail_attribute_BROGeoTOP_Interval_top">top</item>
                      </item>
-                     <item>Top van het interval in mm vanaf de bovenkant van het boormonsterprofiel.</item>
+                     <item>Top van het interval in mm vanaf de bovenkant van het boormonsterbeschrijving.</item>
                      <item>
                         <item type="global">Integer</item>
                      </item>
@@ -1714,7 +1719,7 @@
                      <item>
                         <item type="detail" idref="detail_attribute_BROGeoTOP_Interval_basis">basis</item>
                      </item>
-                     <item>Basis van het interval in mm vanaf de bovenkant van het boormonsterprofiel.</item>
+                     <item>Basis van het interval in mm vanaf de bovenkant van het boormonsterbeschrijving.</item>
                      <item>
                         <item type="global">Integer</item>
                      </item>
@@ -2102,7 +2107,7 @@
                      </part>
                      <part type="CFG-DOC-TOELICHTING">
                         <item>Toelichting</item>
-                        <item>De actuele versie heeft (nog) geen einddatum.</item>
+                        <item>De huidige versie heeft (nog) geen einddatum.</item>
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
@@ -2455,7 +2460,7 @@
                      </part>
                      <part type="CFG-DOC-TOELICHTING">
                         <item>Toelichting</item>
-                        <item>De actuele versie heeft (nog) geen einddatum.</item>
+                        <item>De huidige versie heeft (nog) geen einddatum.</item>
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
@@ -2590,14 +2595,14 @@
                   </content>
                </section>
             </section>
-            <section name="Geïnterpreteerd boormonsterprofiel"
+            <section name="Geïnterpreteerde boormonsterbeschrijving"
                      type="OBJECTTYPE"
-                     id="detail_class_BROGeoTOP_GeNterpreteerdBoormonsterprofiel"
-                     id-global="global_class_BROGeoTOP_GeNterpreteerdBoormonsterprofiel">
+                     id="detail_class_BROGeoTOP_GeNterpreteerdeBoormonsterbeschrijving"
+                     id-global="global_class_BROGeoTOP_GeNterpreteerdeBoormonsterbeschrijving">
                <section name="boornummer"
                         type="DETAIL-ATTRIBUTE"
-                        id="detail_attribute_BROGeoTOP_GeNterpreteerdBoormonsterprofiel_boornummer"
-                        id-global="global_attribute_BROGeoTOP_GeNterpreteerdBoormonsterprofiel_boornummer">
+                        id="detail_attribute_BROGeoTOP_GeNterpreteerdeBoormonsterbeschrijving_boornummer"
+                        id-global="global_attribute_BROGeoTOP_GeNterpreteerdeBoormonsterbeschrijving_boornummer">
                   <content>
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
@@ -2609,7 +2614,7 @@
                      </part>
                      <part type="CFG-DOC-DEFINITIE">
                         <item>Definitie</item>
-                        <item>NITG-nummer van het boormonsterprofiel.</item>
+                        <item>NITG-nummer van het boormonsterbeschrijving.</item>
                      </part>
                      <part type="CFG-DOC-HERKOMSTDEFINITIE">
                         <item>Herkomst definitie</item>
@@ -2647,8 +2652,8 @@
                </section>
                <section name="geometrie"
                         type="DETAIL-ATTRIBUTE"
-                        id="detail_attribute_BROGeoTOP_GeNterpreteerdBoormonsterprofiel_geometrie"
-                        id-global="global_attribute_BROGeoTOP_GeNterpreteerdBoormonsterprofiel_geometrie">
+                        id="detail_attribute_BROGeoTOP_GeNterpreteerdeBoormonsterbeschrijving_geometrie"
+                        id-global="global_attribute_BROGeoTOP_GeNterpreteerdeBoormonsterbeschrijving_geometrie">
                   <content>
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
@@ -2660,7 +2665,7 @@
                      </part>
                      <part type="CFG-DOC-DEFINITIE">
                         <item>Definitie</item>
-                        <item>Puntgeometrie met de ligging en hoogte van het boormonsterprofiel.</item>
+                        <item>Puntgeometrie met de ligging en hoogte van het boormonsterbeschrijving.</item>
                      </part>
                      <part type="CFG-DOC-HERKOMSTDEFINITIE">
                         <item>Herkomst definitie</item>
@@ -2668,7 +2673,7 @@
                      </part>
                      <part type="CFG-DOC-TOELICHTING">
                         <item>Toelichting</item>
-                        <item>Driedimensionale puntgeometrie, waarbij X-coördinaat en Y-coördinaat in het Rijksdriehoekstelsel van de ligging van het boormonsterprofiel en hoogte van het maaiveld c.q. de waterbodem ter plaatse van het boormonsterprofiel in mm ten opzichte van NAP.</item>
+                        <item>Driedimensionale puntgeometrie, waarbij X-coördinaat en Y-coördinaat in het Rijksdriehoekstelsel van de ligging van het boormonsterbeschrijving en hoogte van het maaiveld c.q. de waterbodem ter plaatse van het boormonsterbeschrijving in mm ten opzichte va</item>
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
@@ -2702,8 +2707,8 @@
                </section>
                <section name="einddiepte"
                         type="DETAIL-ATTRIBUTE"
-                        id="detail_attribute_BROGeoTOP_GeNterpreteerdBoormonsterprofiel_einddiepte"
-                        id-global="global_attribute_BROGeoTOP_GeNterpreteerdBoormonsterprofiel_einddiepte">
+                        id="detail_attribute_BROGeoTOP_GeNterpreteerdeBoormonsterbeschrijving_einddiepte"
+                        id-global="global_attribute_BROGeoTOP_GeNterpreteerdeBoormonsterbeschrijving_einddiepte">
                   <content>
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
@@ -2715,7 +2720,7 @@
                      </part>
                      <part type="CFG-DOC-DEFINITIE">
                         <item>Definitie</item>
-                        <item>Diepte waartoe geboord is in mm gerekend vanaf de bovenkant van het boormonsterprofiel.</item>
+                        <item>Diepte waartoe geboord is in mm gerekend vanaf de bovenkant van het boormonsterbeschrijving.</item>
                      </part>
                      <part type="CFG-DOC-HERKOMSTDEFINITIE">
                         <item>Herkomst definitie</item>
@@ -2753,8 +2758,8 @@
                </section>
                <section name="behoort tot"
                         type="DETAIL-ASSOCIATION"
-                        id="detail_association_BROGeoTOP_GeNterpreteerdBoormonsterprofiel_gerelateerdeModelgebied"
-                        id-global="global_association_BROGeoTOP_GeNterpreteerdBoormonsterprofiel_gerelateerdeModelgebied">
+                        id="detail_association_BROGeoTOP_GeNterpreteerdeBoormonsterbeschrijving_gerelateerdeModelgebied"
+                        id-global="global_association_BROGeoTOP_GeNterpreteerdeBoormonsterbeschrijving_gerelateerdeModelgebied">
                   <content approach="association">
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
@@ -2766,7 +2771,7 @@
                      </part>
                      <part type="CFG-DOC-DEFINITIE">
                         <item>Definitie</item>
-                        <item>Éen geïnterpreteerd boormonsterprofiel behoort tot één Modelgebied.</item>
+                        <item>Éen Geïnterpreteerde boormonsterbeschrijving behoort tot één Modelgebied.</item>
                      </part>
                      <part type="CFG-DOC-HERKOMSTDEFINITIE">
                         <item>Herkomst definitie</item>
@@ -2810,7 +2815,7 @@
                      </part>
                      <part type="CFG-DOC-DEFINITIE">
                         <item>Definitie</item>
-                        <item>De unieke aanduiding van het Modelgebied waartoe het Geïnterpreteerd boormonsterprofiel behoort.</item>
+                        <item>De unieke aanduiding van het Modelgebied waartoe het Geïnterpreteerde boormonsterbeschrijving behoort.</item>
                      </part>
                      <part type="CFG-DOC-HERKOMSTDEFINITIE">
                         <item>Herkomst definitie</item>
@@ -2860,7 +2865,7 @@
                      </part>
                      <part type="CFG-DOC-DEFINITIE">
                         <item>Definitie</item>
-                        <item>Top en basis van het interval in mm vanaf de bovenkant van het boormonsterprofiel.</item>
+                        <item>Top en basis van het interval in mm vanaf de bovenkant van het boormonsterbeschrijving.</item>
                      </part>
                      <part type="CFG-DOC-HERKOMSTDEFINITIE">
                         <item>Herkomst definitie</item>
@@ -3115,7 +3120,7 @@
                      </part>
                      <part type="CFG-DOC-DEFINITIE">
                         <item>Definitie</item>
-                        <item>Code die de mate van bijmenging van klei aangeeft.</item>
+                        <item>Code die de mate van bijmenging van silt aangeeft.</item>
                      </part>
                      <part type="CFG-DOC-HERKOMSTDEFINITIE">
                         <item>Herkomst definitie</item>
@@ -3969,8 +3974,8 @@
                </section>
                <section name="maakt deel uit van"
                         type="DETAIL-ASSOCIATION"
-                        id="detail_association_BROGeoTOP_Boorbeschrijvingsinterval_gerelateerdeBoormonsterprofiel"
-                        id-global="global_association_BROGeoTOP_Boorbeschrijvingsinterval_gerelateerdeBoormonsterprofiel">
+                        id="detail_association_BROGeoTOP_Boorbeschrijvingsinterval_gerelateerdeboormonsterbeschrijving"
+                        id-global="global_association_BROGeoTOP_Boorbeschrijvingsinterval_gerelateerdeboormonsterbeschrijving">
                   <content approach="association">
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
@@ -3982,7 +3987,7 @@
                      </part>
                      <part type="CFG-DOC-DEFINITIE">
                         <item>Definitie</item>
-                        <item>Één Boorbeschrijvingsinterval maakt deelt uit van één Geïnterpreteerd boormonsterprofiel.</item>
+                        <item>Één Boorbeschrijvingsinterval maakt deelt uit van één Geïnterpreteerde boormonsterbeschrijving.</item>
                      </part>
                      <part type="CFG-DOC-HERKOMSTDEFINITIE">
                         <item>Herkomst definitie</item>
@@ -4012,7 +4017,7 @@
                         <item>Gerelateerd objecttype</item>
                         <item>
                            <item type="global"
-                                 idref="global_class_BROGeoTOP_GeNterpreteerdBoormonsterprofiel">Geïnterpreteerd boormonsterprofiel</item>
+                                 idref="global_class_BROGeoTOP_GeNterpreteerdeBoormonsterbeschrijving">Geïnterpreteerde boormonsterbeschrijving</item>
                         </item>
                      </part>
                   </content>
@@ -4027,7 +4032,7 @@
                      </part>
                      <part type="CFG-DOC-DEFINITIE">
                         <item>Definitie</item>
-                        <item>De unieke aanduiding van het Geïnterpreteerde boormonsterprofiel waarvan het Boorbeschrijvingsinterval deel uit maakt.</item>
+                        <item>De unieke aanduiding van het Geïnterpreteerde boormonsterbeschrijving waarvan het Boorbeschrijvingsinterval deel uit maakt.</item>
                      </part>
                      <part type="CFG-DOC-HERKOMSTDEFINITIE">
                         <item>Herkomst definitie</item>
@@ -4053,7 +4058,7 @@
                         <item>Gerelateerd objecttype</item>
                         <item>
                            <item type="global"
-                                 idref="global_class_BROGeoTOP_GeNterpreteerdBoormonsterprofiel">Geïnterpreteerd boormonsterprofiel</item>
+                                 idref="global_class_BROGeoTOP_GeNterpreteerdeBoormonsterbeschrijving">Geïnterpreteerde boormonsterbeschrijving</item>
                         </item>
                      </part>
                   </content>
@@ -4078,7 +4083,7 @@
                      </part>
                      <part type="CFG-DOC-DEFINITIE">
                         <item>Definitie</item>
-                        <item>Top en basis van het interval in mm vanaf de bovenkant van het boormonsterprofiel.</item>
+                        <item>Top en basis van het interval in mm vanaf de bovenkant van het boormonsterbeschrijving.</item>
                      </part>
                      <part type="CFG-DOC-HERKOMSTDEFINITIE">
                         <item>Herkomst definitie</item>
@@ -4129,7 +4134,7 @@
                      </part>
                      <part type="CFG-DOC-DEFINITIE">
                         <item>Definitie</item>
-                        <item>De geologische eenheid waartoe het interval behoort.</item>
+                        <item>Een geologische eenheid omvat ruimtelijk samenhangende delen van de ondergrond met overeenkomstige lithologische en genetische eigenschappen.</item>
                      </part>
                      <part type="CFG-DOC-HERKOMSTDEFINITIE">
                         <item>Herkomst definitie</item>
@@ -4269,8 +4274,8 @@
                </section>
                <section name="behoort tot"
                         type="DETAIL-ASSOCIATION"
-                        id="detail_association_BROGeoTOP_GeNterpreteerdGeologischeEenheidInterval_gerelateerdeBoormonsterprofiel"
-                        id-global="global_association_BROGeoTOP_GeNterpreteerdGeologischeEenheidInterval_gerelateerdeBoormonsterprofiel">
+                        id="detail_association_BROGeoTOP_GeNterpreteerdGeologischeEenheidInterval_gerelateerdeboormonsterbeschrijving"
+                        id-global="global_association_BROGeoTOP_GeNterpreteerdGeologischeEenheidInterval_gerelateerdeboormonsterbeschrijving">
                   <content approach="association">
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
@@ -4282,7 +4287,7 @@
                      </part>
                      <part type="CFG-DOC-DEFINITIE">
                         <item>Definitie</item>
-                        <item>Één Geïnterpreteerde geologische eenheid-interval behoort tot één Geïnterpreteerd boormonsterprofiel.</item>
+                        <item>Één Geïnterpreteerde geologische eenheid-interval behoort tot één Geïnterpreteerde boormonsterbeschrijving.</item>
                      </part>
                      <part type="CFG-DOC-HERKOMSTDEFINITIE">
                         <item>Herkomst definitie</item>
@@ -4316,7 +4321,7 @@
                         <item>Gerelateerd objecttype</item>
                         <item>
                            <item type="global"
-                                 idref="global_class_BROGeoTOP_GeNterpreteerdBoormonsterprofiel">Geïnterpreteerd boormonsterprofiel</item>
+                                 idref="global_class_BROGeoTOP_GeNterpreteerdeBoormonsterbeschrijving">Geïnterpreteerde boormonsterbeschrijving</item>
                         </item>
                      </part>
                   </content>
@@ -4331,7 +4336,7 @@
                      </part>
                      <part type="CFG-DOC-DEFINITIE">
                         <item>Definitie</item>
-                        <item>De unieke aanduiding van het Geïnterpreteerd boormonsterprofiel waartoe het Geïnterpreteerd geologische eenheid-interval behoort.</item>
+                        <item>De unieke aanduiding van het Geïnterpreteerde boormonsterbeschrijving waartoe het Geïnterpreteerd geologische eenheid-interval behoort.</item>
                      </part>
                      <part type="CFG-DOC-HERKOMSTDEFINITIE">
                         <item>Herkomst definitie</item>
@@ -4357,7 +4362,7 @@
                         <item>Gerelateerd objecttype</item>
                         <item>
                            <item type="global"
-                                 idref="global_class_BROGeoTOP_GeNterpreteerdBoormonsterprofiel">Geïnterpreteerd boormonsterprofiel</item>
+                                 idref="global_class_BROGeoTOP_GeNterpreteerdeBoormonsterbeschrijving">Geïnterpreteerde boormonsterbeschrijving</item>
                         </item>
                      </part>
                   </content>
@@ -4382,7 +4387,7 @@
                      </part>
                      <part type="CFG-DOC-DEFINITIE">
                         <item>Definitie</item>
-                        <item>Top en basis van het interval in mm vanaf de bovenkant van het boormonsterprofiel.</item>
+                        <item>Top en basis van het interval in mm vanaf de bovenkant van het boormonsterbeschrijving.</item>
                      </part>
                      <part type="CFG-DOC-HERKOMSTDEFINITIE">
                         <item>Herkomst definitie</item>
@@ -4471,8 +4476,8 @@
                </section>
                <section name="behoort tot"
                         type="DETAIL-ASSOCIATION"
-                        id="detail_association_BROGeoTOP_GeinterpreteerdLithoklasseInterval_gerelateerdeBoormonsterprofiel"
-                        id-global="global_association_BROGeoTOP_GeinterpreteerdLithoklasseInterval_gerelateerdeBoormonsterprofiel">
+                        id="detail_association_BROGeoTOP_GeinterpreteerdLithoklasseInterval_gerelateerdeboormonsterbeschrijving"
+                        id-global="global_association_BROGeoTOP_GeinterpreteerdLithoklasseInterval_gerelateerdeboormonsterbeschrijving">
                   <content approach="association">
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
@@ -4484,7 +4489,7 @@
                      </part>
                      <part type="CFG-DOC-DEFINITIE">
                         <item>Definitie</item>
-                        <item>Één Geïnterpreteerd lithoklasse-interval behoort tot één Geïnterpreteerd boormonsterprofiel.</item>
+                        <item>Één Geïnterpreteerd lithoklasse-interval behoort tot één Geïnterpreteerde boormonsterbeschrijving.</item>
                      </part>
                      <part type="CFG-DOC-HERKOMSTDEFINITIE">
                         <item>Herkomst definitie</item>
@@ -4514,7 +4519,7 @@
                         <item>Gerelateerd objecttype</item>
                         <item>
                            <item type="global"
-                                 idref="global_class_BROGeoTOP_GeNterpreteerdBoormonsterprofiel">Geïnterpreteerd boormonsterprofiel</item>
+                                 idref="global_class_BROGeoTOP_GeNterpreteerdeBoormonsterbeschrijving">Geïnterpreteerde boormonsterbeschrijving</item>
                         </item>
                      </part>
                   </content>
@@ -4529,7 +4534,7 @@
                      </part>
                      <part type="CFG-DOC-DEFINITIE">
                         <item>Definitie</item>
-                        <item>De unieke aanduiding van het Geïnterpreteerd boormonsterprofiel waartoe het Geïnterpreteerd lithoklasse-interval behoort.</item>
+                        <item>De unieke aanduiding van het Geïnterpreteerde boormonsterbeschrijving waartoe het Geïnterpreteerd lithoklasse-interval behoort.</item>
                      </part>
                      <part type="CFG-DOC-HERKOMSTDEFINITIE">
                         <item>Herkomst definitie</item>
@@ -4555,7 +4560,7 @@
                         <item>Gerelateerd objecttype</item>
                         <item>
                            <item type="global"
-                                 idref="global_class_BROGeoTOP_GeNterpreteerdBoormonsterprofiel">Geïnterpreteerd boormonsterprofiel</item>
+                                 idref="global_class_BROGeoTOP_GeNterpreteerdeBoormonsterbeschrijving">Geïnterpreteerde boormonsterbeschrijving</item>
                         </item>
                      </part>
                   </content>
@@ -6070,7 +6075,7 @@
                      </part>
                      <part type="CFG-DOC-DEFINITIE">
                         <item>Definitie</item>
-                        <item>Top van het interval in mm vanaf de bovenkant van het boormonsterprofiel.</item>
+                        <item>Top van het interval in mm vanaf de bovenkant van het boormonsterbeschrijving.</item>
                      </part>
                      <part type="CFG-DOC-INDICATIEKARDINALITEIT">
                         <item>Indicatie kardinaliteit</item>
@@ -6097,7 +6102,7 @@
                      </part>
                      <part type="CFG-DOC-DEFINITIE">
                         <item>Definitie</item>
-                        <item>Basis van het interval in mm vanaf de bovenkant van het boormonsterprofiel.</item>
+                        <item>Basis van het interval in mm vanaf de bovenkant van het boormonsterbeschrijving.</item>
                      </part>
                      <part type="CFG-DOC-INDICATIEKARDINALITEIT">
                         <item>Indicatie kardinaliteit</item>
@@ -6209,10 +6214,6 @@
                         <item>Naam</item>
                         <item>groen</item>
                      </part>
-                     <part type="CFG-DOC-HERKOMST">
-                        <item>Herkomst</item>
-                        <item>BRO</item>
-                     </part>
                      <part type="CFG-DOC-DEFINITIE">
                         <item>Definitie</item>
                         <item>Hoeveelheid (0 tm 255) van de kleur groen</item>
@@ -6235,10 +6236,6 @@
                      <part type="CFG-DOC-NAAM">
                         <item>Naam</item>
                         <item>blauw</item>
-                     </part>
-                     <part type="CFG-DOC-HERKOMST">
-                        <item>Herkomst</item>
-                        <item>BRO</item>
                      </part>
                      <part type="CFG-DOC-DEFINITIE">
                         <item>Definitie</item>
