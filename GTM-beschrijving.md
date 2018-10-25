@@ -6,13 +6,16 @@ Beschrijving
 
 GeoTOP is een registratieobject in het domein *modellen*. Het gaat in dit domein
 om schattingen of voorspellingen van de opbouw en eigenschappen van de bodem of
-ondergrond in twee of drie dimensies.
+ondergrond in twee of drie dimensies. Modellen zijn sterk afhankelijk van de
+hoeveelheid en kwaliteit van de beschikbare ondergrondgegevens zoals
+boormonsterbeschrijvingen. De kwaliteit van de modellen zal daarom toenemen
+naarmate er meer ondergrondgegevens in de BRO beschikbaar komen.
 
 GeoTOP is een driedimensionaal geologisch model van de laagopbouw en grondsoort
 (bijvoorbeeld klei, zand, veen) van de ondiepe ondergrond van Nederland tot een
 diepte van maximaal 50 m onder NAP. In GeoTOP is de ondergrond onderverdeeld in
 een regelmatig driedimensionaal grid (raster) van aaneengesloten voxels
-(volumecellen) van 100 bij 100 m in de horizontale richtingen en 0,5 m in de
+(volumecellen) van 100 x 100 m in de horizontale richtingen en 0,5 m in de
 verticaal. Aan elke voxel zijn eigenschappen gekoppeld. Dit zijn de
 lithostratigrafische c.q. geologische eenheid (laag) waartoe een voxel behoort,
 de lithoklasse (grondsoort) die representatief is voor de voxel en een aantal
@@ -42,33 +45,34 @@ worden hieronder toegelicht:
     **lithoklassen**, waarin lithologie (grondsoort) en zandkorrelgrootteklassen
     zijn gecombineerd in één classificatie.
 
-GeoTOP bestaat uit de volgende producten die ontstaan uit een gestandaardiseerd
-werkproces:
+GeoTOP bestaat uit de volgende in de BRO opgenomen producten die ontstaan uit
+een gestandaardiseerd werkproces:
 
 -   De interpretatie van de boormonsterprofielen in **geologische eenheden** en
-    in **lithoklasse-eenheden**. Elk boormonsterbeschrijving wordt onderverdeeld
-    in intervallen van gelijke geologische eenheid. Daarbinnen worden de
+    in **lithoklasse-eenheden**. Elke boormonsterbeschrijving is onderverdeeld
+    in intervallen van gelijke geologische eenheid. Daarbinnen zijn de
     intervallen verder opgedeeld in intervallen van een gelijke lithoklasse.
 
 -   **Breuken**. Per breuksegment is aangegeven in welke basis van een
     geologische eenheid dit breuksegment nog invloed heeft.
 
--   Een **lagenmodel** waarbij de ondergrond wordt weergegeven als een stapeling
-    van geologische eenheden die begrensd worden door een top- en een basisvlak.
+-   Een **lagenmodel** waarbij de ondergrond is weergegeven als een stapeling
+    van geologische eenheden die begrensd zijn door een top- en een basisvlak.
     Beide vlakken worden weergegeven als een **raster** met cellen van 100 x 100
     m. Elke **rastercel** heeft de diepteligging van top respectievelijk basis
-    in m onder NAP als attribuut. Uit de top- en basisrasters wordt een
-    dikteraster afgeleid met de dikte van de geologische eenheid in m. Tot slot
-    zijn er voor zowel top als basis standaarddeviatierasters beschikbaar die de
+    in m onder NAP als attribuut. Uit de top- en basisrasters is een dikteraster
+    afgeleid met de dikte van de geologische eenheid in m. Tot slot zijn er voor
+    zowel top als basis standaarddeviatierasters beschikbaar die de
     modelonzekerheid van het lagenmodel representeren.
 
 -   Een **voxelmodel** waarbij de ondergrond in voxels van 100 x 100 x 0,5 m
     ingedeeld is. Elke **voxel** heeft een aantal attributen, namelijk de
-    geologische eenheid, de lithoklasse en een aantal attributen die tezamen een
-    maat van modelonzekerheid vormen.
+    geologische eenheid, de meest waarschijnlijke lithoklasse en een aantal
+    attributen die tezamen een maat van modelonzekerheid vormen.
 
-De onderlinge samenhang van geïnterpreteerde boormonsterbeschrijvingen,
-lagenmodel en voxelmodel is geïllustreerd in Figuur 3.1 – 3.3.
+De onderlinge samenhang van de in de BRO opgenomen geïnterpreteerde
+boormonsterbeschrijvingen, lagenmodel en voxelmodel is geïllustreerd in Figuur
+3.1 – 3.3.
 
 ![](media/c668ba602745c9424364bef09cce86ac.png)
 
@@ -95,12 +99,18 @@ lithoklasse weergeven. De lithoklasse indeling in de voxels is het resultaat van
 een ruimtelijke interpolatie van de lithoklassen in de geïnterpreteerde
 boormonsterbeschrijvingen binnen de verschillende geologische eenheden.*
 
-Modelgebieden
--------------
+Dekkingsgebied en modelgebieden
+-------------------------------
 
 Een belangrijk aspect van GeoTOP is dat het is opgedeeld in **modelgebieden**.
 GeoTOP wordt niet in één keer landelijk samengesteld maar regio-gewijs
-ontwikkeld.
+ontwikkeld. Ultimo 2018 bestreek GeoTOP circa 57% van het vasteland van
+Nederland verdeeld over zeven modelgebieden. Van deze modelgebieden zijn er
+initieel twee in de BRO opgenomen, dit zijn de modelgebieden *Westelijke Wadden*
+en *Oostelijke Wadden* die tezamen circa 22% van Nederland beslaan. In de jaren
+na 2018 zullen er meer modelgebieden aan de BRO worden toegevoegd zodat GeoTOP
+uiteindelijk het hele vasteland van Nederland, inclusief de grote wateren zoals
+het IJsselmeer, de Waddenzee en de Westerschelde, zal bestrijken.
 
 Op GeoTOP is **versiebeheer** van toepassing. Het versiebeheer geldt zowel voor
 individuele modelgebieden als voor GeoTOP als geheel. De in de BRO uitgeleverde
@@ -142,9 +152,16 @@ in plaats van *onzekerheid*.
 ### Standaarddeviaties in het lagenmodel
 
 Van elke gemodelleerde geologische eenheid in het lagenmodel is van zowel de top
-als de basis een standaarddeviatieraster berekend. Deze rasters geven de
-modelonzekerheid weer van de diepteligging van de gemodelleerde top en basis van
-de geologische eenheid.
+als de basis een standaarddeviatieraster berekend. Deze rasters geven voor elke
+rastercel de modelonzekerheid weer, uitgedrukt in de standaarddeviatie (in m)
+van de door het model geschatte, meest waarschijnlijke diepteligging van de
+gemodelleerde top en basis van de geologische eenheid. Met de standaarddeviatie
+is het mogelijk om de kans te bepalen dat de diepteligging van de top of basis
+een bepaalde afwijking vertoont van de door het model geschatte meest
+waarschijnlijke waarde. De manier waarop de standaarddeviatie berekend wordt kan
+per geologische eenheid en per modelgebied verschillen. Welke manier van
+toepassing is wordt beschreven in het Totstandkomingsrapport dat met het model
+in de BRO is opgenomen.
 
 ### Kans op lithoklasse
 
@@ -297,6 +314,14 @@ Ook kan de te modelleren werkelijkheid zijn gewijzigd, bijvoorbeeld het effect
 van een zandwinning die in het ene modelgebied al zichtbaar is maar in het
 andere, oudere modelgebied nog niet.
 
+Aansluitingsproblemen zijn te herkennen aan onrealistische sprongen in de
+diepteligging van de top of basis van een geologische eenheid en abrupte
+overgangen in lithoklasse precies op de modelgebiedgrens. Het verdient daarom
+aanbeveling om in de nabijheid van een modelgebiedgrens niet alleen het model
+zelf, maar ook de geïnterpreteerde boormonsterbeschrijvingen aan weerszijden van
+de grens te raadplegen. De grenzen van de modelgebieden zijn opgenomen in de
+BRO.
+
 ### Boormonsterbeschrijvingen
 
 #### Boormonsterbeschrijvingen
@@ -403,7 +428,7 @@ resolutie van deze kaartschaal vallen, worden daardoor mogelijk niet in de
 verbreiding opgenomen.
 
 Ten behoeve van de lagenmodellering worden de verbreidingsgrenzen (polygonen)
-verrasterd naar rasters met rastercellen van 100 bij 100 m.
+verrasterd naar rasters met rastercellen van 100 x 100 m.
 
 ### Breuken
 
@@ -452,14 +477,14 @@ Een geïnterpreteerde boormonsterbeschrijving geeft veelal een gedetailleerd
 beeld van de diepteligging en dikte van geologische eenheden op één specifieke
 puntlocatie. In het lagenmodel wordt een schatting gegeven van de diepteligging
 en dikte van geologische eenheden die representatief is voor een gebied van 100
-bij 100 m (10.000 m2) en die past bij een (sub)regionale schaal. De
-diepteligging en dikte van geologische eenheden in een boormonsterbeschrijving
-kan daarom afwijken van de diepteligging en dikte van geologische eenheden in
-het lagenmodel op dezelfde locatie. Ook geldt dat de stratigrafische
-opeenvolging van eenheden in een boormonsterprofiel kan afwijken van de
-gemodelleerde opeenvolging van de eenheden: dunne eenheden kunnen weggeschaald
-zijn in het lagenmodel en een complexe afwisseling van eenheden kan voor de
-modellering zijn vereenvoudigd.
+x 100 m (10.000 m2) en die past bij een (sub)regionale schaal. De diepteligging
+en dikte van geologische eenheden in een boormonsterbeschrijving kan daarom
+afwijken van de diepteligging en dikte van geologische eenheden in het
+lagenmodel op dezelfde locatie. Ook geldt dat de stratigrafische opeenvolging
+van eenheden in een boormonsterprofiel kan afwijken van de gemodelleerde
+opeenvolging van de eenheden: dunne eenheden kunnen weggeschaald zijn in het
+lagenmodel en een complexe afwisseling van eenheden kan voor de modellering zijn
+vereenvoudigd.
 
 De hoogte van het maaiveld op de locatie van het boormonsterbeschrijving kan
 eveneens afwijken van de maaiveldhoogte van het model. Dit kan verschillende
@@ -469,7 +494,7 @@ daadwerkelijke verandering in maaiveldhoogte door bijvoorbeeld afgraving of
 ophoging die in de tijd tussen het maken van het boormonsterbeschrijving en het
 construeren van het model heeft plaatsgevonden. Verder geldt ook bij
 maaiveldhoogte dat de hoogte in het model representatief is voor een gebied van
-100 bij 100 m en de hoogte van een boormonsterbeschrijving geldt voor één
+100 x 100 m en de hoogte van een boormonsterbeschrijving geldt voor één
 specifieke puntlocatie.
 
 ### Voxelmodel
@@ -509,7 +534,7 @@ gerepresenteerd.
 
 Net als bij het lagenmodel kunnen er verschillen bestaan tussen de lithoklassen
 in het boormonsterbeschrijving en die in het voxelmodel. De lithoklassen in het
-voxelmodel zijn een schatting die representatief is voor een volume van 100 bij
+voxelmodel zijn een schatting die representatief is voor een volume van 100 x
 100 bij 0,5 m (5.000 m3) en die past bij een (sub)regionale schaal.
 
 Metadata
@@ -517,8 +542,8 @@ Metadata
 
 ### Resolutie
 
-Rastercellen in het lagenmodel hebben afmetingen van 100 bij 100 m. Voxels in
-het voxelmodel meten 100 bij 100 m in de horizontale richtingen en 0,5 m in de
+Rastercellen in het lagenmodel hebben afmetingen van 100 x 100 m. Voxels in het
+voxelmodel meten 100 x 100 m in de horizontale richtingen en 0,5 m in de
 verticale richting.
 
 ### Gebruiksschaal
