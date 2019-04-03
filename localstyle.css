@@ -41,5 +41,5 @@ th, td {
 
 img { width: auto; height: auto; max-width: "800px" }
 
-/*#Geonovum { height: "132px" !important; width: "67px" !important}*/
+.logo img { height: 132px !important; width: 67px !important}
 
