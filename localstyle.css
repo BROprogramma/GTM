@@ -39,7 +39,9 @@ th, td {
     padding: 0.25em;
 }
 
-img { width: auto; height: auto; max-width: "800px" }
+.logo img { height:132px !important; width:67px !important}
 
-.logo img { height: 132px !important; width: 67px !important}
+img {width: auto; height: auto; max-width: 800px}
+
+
 
