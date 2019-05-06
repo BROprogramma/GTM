@@ -59,11 +59,12 @@ een gestandaardiseerd werkproces:
 -   Een **lagenmodel** waarbij de ondergrond is weergegeven als een stapeling
     van geologische eenheden die begrensd zijn door een top- en een basisvlak.
     Beide vlakken worden weergegeven als een **raster** met cellen van 100 x 100
-    m. Elke **rastercel** heeft de diepteligging van top respectievelijk basis
-    in m onder NAP als attribuut. Uit de top- en basisrasters is een dikteraster
-    afgeleid met de dikte van de geologische eenheid in m. Tot slot zijn er voor
-    zowel top als basis standaarddeviatierasters beschikbaar die de
-    modelonzekerheid van het lagenmodel representeren.
+
+    1.  Elke **rastercel** heeft de diepteligging van top respectievelijk basis
+        in m onder NAP als attribuut. Uit de top- en basisrasters is een
+        dikteraster afgeleid met de dikte van de geologische eenheid in m. Tot
+        slot zijn er voor zowel top als basis standaarddeviatierasters
+        beschikbaar die de modelonzekerheid van het lagenmodel representeren.
 
 -   Een **voxelmodel** waarbij de ondergrond in voxels van 100 x 100 x 0,5 m
     ingedeeld is. Elke **voxel** heeft een aantal attributen, namelijk de
@@ -115,6 +116,16 @@ het IJsselmeer, de Waddenzee en de Westerschelde, zal bestrijken.
 Op GeoTOP is **versiebeheer** van toepassing. Het versiebeheer geldt zowel voor
 individuele modelgebieden als voor GeoTOP als geheel. De in de BRO uitgeleverde
 actuele versie van GeoTOP omvat alle op dat moment actuele modelgebieden.
+
+De beheerder van een model maakt zijn waardenlijsten (codelijsten en/of
+referentielijsten) bekend op een algemeen bekend formaat (PDF en als
+downloadable bestand) en maakt deze toegankelijk via
+www.basisregistratieondergrond.nl. De waardenlijsten worden waar mogelijk
+meegeleverd bij de modellevering.
+
+Als er wijzigingen zijn in een waardelijst, wordt er uiterlijk twee maanden vóór
+inwerkingtreding een notificatie op die website gezet, zodat gebruikers nog tijd
+hebben om hun eigen omgeving op de wijzigingen aan te passen.
 
 Modelonzekerheden
 -----------------
@@ -186,6 +197,8 @@ histogram, waarmee een visualisatie van de modelonzekerheid in de betreffende
 voxel wordt verkregen (Figuur 3.5).
 
 ![Figuur 1 Modelonzekerheid individuele voxel](media/9b36e3569943eef3be94a99735be30bb.png)
+
+Figuur 1 Modelonzekerheid individuele voxel
 
 *Figuur 3.5: Visualisatie van modelonzekerheid van een individuele voxel door
 het weergeven van de kans op lithoklasse in een histogram. In dit voorbeeld is
