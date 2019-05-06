@@ -4,7 +4,7 @@
       type="BASISMODEL"
       id="EAPK_B7F6F3FF_D66A_49e0_90BF_91C92EBC7F47"
       generator-version="1.47.6"
-      generator-date="2018-11-13T07:05:22Z">
+      generator-date="2019-05-06T07:13:25Z">
    <section type="DOMAIN" name="BRO: GeoTOP" id="global_package_BROGeoTOP">
       <section type="IMAGEMAPS"
                name="BRO: GeoTOP-imagemap"
@@ -2117,7 +2117,7 @@ voxel zich binnen de grensvlakken van een modellaag bevindt.</item>
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
-                        <item>Nee</item>
+                        <item>Ja</item>
                      </part>
                      <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
                         <item>Indicatie materiële historie</item>
@@ -2470,7 +2470,7 @@ voxel zich binnen de grensvlakken van een modellaag bevindt.</item>
                      </part>
                      <part type="CFG-DOC-MOGELIJKGEENWAARDE">
                         <item>Mogelijk geen waarde</item>
-                        <item>Nee</item>
+                        <item>Ja</item>
                      </part>
                      <part type="CFG-DOC-INDICATIEMATERIELEHISTORIE">
                         <item>Indicatie materiële historie</item>
