@@ -15,7 +15,7 @@ var respecConfig = {
   authors: [
     {
       name: "TNO Geologische Dienst Nederland",
-	  mailto: "Support@broservicedesk.nl",
+	  mailto: "support@broservicedesk.nl",
 	  note: "088 – 8664 999",
       companyURL: "http://www.tno.nl",
     }],
