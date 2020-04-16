@@ -19,7 +19,7 @@ var respecConfig = {
 	  note: "088 – 8664 999",
       companyURL: "http://www.tno.nl",
     }],
-  shortName: "bro-GTM",
+  shortName: "GTM",
   pubDomain: "bro",
   github: "https://github.com/BROprogramma/GTM",
   //previousPublishDate: "2017-01-01",
