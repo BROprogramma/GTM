@@ -39,14 +39,18 @@ th, td {
     padding: 0.25em;
 }
 
+.logo 
+{
+	display:block;
+}
 .logo img { 
-
   display: block;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   background: url(logo_minbzk.png) no-repeat;
-  height:67px !important; 
-  width:132px !important
+  height:0px !important; 
+  width:0px !important;
+  padding: 67px 132px 0px 0px;
 }
 
 
