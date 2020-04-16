@@ -42,7 +42,7 @@ th, td {
 .logo 
 {
 	display: contents;
-	;
+	
 }
 .logo img { 
   display: contents;
@@ -52,7 +52,7 @@ th, td {
   height:0px !important; 
   width:0px !important;
   padding: 130px 250px 0px 0px;
-  margin-left: 50%
+  margin-left: 50%;
 }
 
 
