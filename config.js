@@ -1,11 +1,10 @@
 var respecConfig = {
   specStatus: "GN-DEF",
   specType: "IM",
-  logos: "TNO",
   publishDate: "2020-04-01",  
   authors: [
     {
-      company: "TNO",
+      name: "TNO Geologische Dienst Nederland",
       companyURL: "http://www.tno.nl",
     }],
   shortName: "bro-GTM",
