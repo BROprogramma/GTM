@@ -4,7 +4,7 @@ var respecConfig = {
   subtitle: "BRO gegevenscatalogus",
   publishDate: "2020-03-31", 
   logos: [{
-    src: 'logo_minbzk',
+    src: 'logo_minbzk.png',
     href: "http://basisregistratieondergrond.nl",
     alt: "Ministerie BZK",
     width: 130,
