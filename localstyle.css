@@ -45,9 +45,6 @@ th, td {
 	
 }
 .logo img { 
-  display: contents;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
   background: url(logo_minbzk.png) no-repeat;
   height:0px !important; 
   width:0px !important;
