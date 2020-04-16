@@ -1,6 +1,7 @@
 var respecConfig = {
   specStatus: "GN-DEF",
-  specType: "IM",  
+  specType: "IM",
+  logos: "TNO",
   publishDate: "2020-04-01",  
   authors: [
     {
