@@ -41,7 +41,8 @@ th, td {
 
 .logo 
 {
-	display:block;
+	display: contents;
+	;
 }
 .logo img { 
   display: block;
@@ -50,7 +51,8 @@ th, td {
   background: url(logo_minbzk.png) no-repeat;
   height:0px !important; 
   width:0px !important;
-  padding: 67px 132px 0px 0px;
+  padding: 130px 250px 0px 0px;
+  margin-left: 50%
 }
 
 
