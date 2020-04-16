@@ -16,7 +16,7 @@ var respecConfig = {
     {
       name: "TNO Geologische Dienst Nederland",
 	  mailto: "Support@broservicedesk.nl",
-	  note: "Contact 	Support@broservicedesk.nl / 088 – 8664 999",
+	  note: "088 – 8664 999",
       companyURL: "http://www.tno.nl",
     }],
   shortName: "bro-GTM",
