@@ -2,7 +2,7 @@ var respecConfig = {
   specStatus: "GN-DEF",
   specType: "IM",
   publishDate: "2020-03-31",  
-  authors: [
+  editors: [
     {
       name: "TNO Geologische Dienst Nederland",
 	  email: "Support@broservicedesk.nl",
