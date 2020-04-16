@@ -1,10 +1,12 @@
 var respecConfig = {
   specStatus: "GN-DEF",
   specType: "IM",
-  publishDate: "2020-04-01",  
+  publishDate: "2020-03-31",  
   authors: [
     {
       name: "TNO Geologische Dienst Nederland",
+	  email: "Support@broservicedesk.nl",
+	  telephone: "088 – 8664 999",
       companyURL: "http://www.tno.nl",
     }],
   shortName: "bro-GTM",
