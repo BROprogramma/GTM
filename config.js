@@ -5,12 +5,18 @@ var respecConfig = {
   publishDate: "2020-03-31", 
   logos: [{
     src: 'logo_minbzk.png',
-    href: "http://basisregistratieondergrond.nl",
+    href: "https://www.geobasisregistraties.nl/basisregistraties/ondergrond",
     alt: "Ministerie BZK",
     width: 260,
     height: 458,
     id: 'BZK',
-  }]  ,
+  },
+  {src: 'logo_bro.png',
+    href: "http://basisregistratieondergrond.nl",
+    alt: "Basisregistratie Ondergrond",
+    width: 260,
+    height: 458,
+    id: 'BRO'}]  ,
   editors: [],
   authors: [
     {
