@@ -7,8 +7,8 @@ var respecConfig = {
   {src: 'logo_bro.png',
     href: "http://basisregistratieondergrond.nl",
     alt: "Basisregistratie Ondergrond",
-    width: 260,
-    height: 458,
+    width: 252,
+    height: 130,
     id: 'BRO'},
   {
     src: 'logo_minbzk.png',
