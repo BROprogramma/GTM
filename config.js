@@ -3,20 +3,21 @@ var respecConfig = {
   specType: "IM",
   subtitle: "BRO gegevenscatalogus",
   publishDate: "2020-03-31", 
-  logos: [{
+  logos: [
+  {src: 'logo_bro.png',
+    href: "http://basisregistratieondergrond.nl",
+    alt: "Basisregistratie Ondergrond",
+    width: 260,
+    height: 458,
+    id: 'BRO'},
+  {
     src: 'logo_minbzk.png',
     href: "https://www.geobasisregistraties.nl/basisregistraties/ondergrond",
     alt: "Ministerie BZK",
     width: 260,
     height: 458,
     id: 'BZK',
-  },
-  {src: 'logo_bro.png',
-    href: "http://basisregistratieondergrond.nl",
-    alt: "Basisregistratie Ondergrond",
-    width: 260,
-    height: 458,
-    id: 'BRO'}]  ,
+  }]  ,
   editors: [],
   authors: [
     {
