@@ -10,14 +10,14 @@ var respecConfig = {
     alt: "Ministerie BZK",
     width: 260,
     height: 458,
-    id: 'BZK',
+    id: 'bzklogo',
   },
   {src: 'https://docs.geostandaarden.nl/bro/gen/logo_bro.png',
     href: "http://basisregistratieondergrond.nl",
     alt: "Basisregistratie Ondergrond",
     width: 260,
     height: 458,
-    id: 'BRO'}]  ,
+    id: 'brologo'}],
   editors: [    {
       name: "Geonovum",
 	  /* mailto: "support@broservicedesk.nl", */
