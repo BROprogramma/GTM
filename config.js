@@ -2,7 +2,7 @@ var respecConfig = {
   specStatus: "GN-DEF",
   specType: "IM",
   publishDate: "2019-06-21", 
-     maxTocLevel: 4,
+  maxTocLevel: 4,
   logos: [
   {
     src: 'https://docs.geostandaarden.nl/bro/gen/logo_minbzk.png',
