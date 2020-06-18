@@ -1,30 +1,35 @@
 var respecConfig = {
   specStatus: "GN-DEF",
   specType: "IM",
-  subtitle: "BRO gegevenscatalogus",
-  publishDate: "2020-03-31", 
-  logos: [{
-    src: 'logo_minbzk.png',
+  publishDate: "2019-06-21", 
+     maxTocLevel: 4,
+  logos: [
+  {
+    src: 'https://docs.geostandaarden.nl/bro/gen/logo_minbzk.png',
     href: "https://www.geobasisregistraties.nl/basisregistraties/ondergrond",
     alt: "Ministerie BZK",
     width: 260,
     height: 458,
     id: 'BZK',
   },
-  {src: 'logo_bro.png',
+  {src: 'https://docs.geostandaarden.nl/bro/gen/logo_bro.png',
     href: "http://basisregistratieondergrond.nl",
     alt: "Basisregistratie Ondergrond",
     width: 260,
     height: 458,
     id: 'BRO'}]  ,
-  editors: [],
+  editors: [    {
+      name: "Geonovum",
+	  /* mailto: "support@broservicedesk.nl", */
+      companyURL: "https://www.geonovum.nl/geo-standaarden/bro-basisregistratie-ondergrond",
+    }],
   authors: [
     {
-      name: "TNO Geologische Dienst Nederland",
-	  mailto: "support@broservicedesk.nl",
-	  note: "088 – 8664 999",
-      companyURL: "http://www.tno.nl",
-    }],
+      name: "Geonovum",
+	  /* mailto: "support@broservicedesk.nl", */
+      companyURL: "https://www.geonovum.nl/geo-standaarden/bro-basisregistratie-ondergrond",
+    }
+	],
   shortName: "GTM",
   pubDomain: "bro",
   github: "https://github.com/BROprogramma/GTM",
