@@ -4,12 +4,6 @@ var respecConfig = {
   publishDate: "2019-06-21", 
   maxTocLevel: 4,
 logos: [
-  {src: 'logo_bro.png',
-    href: "http://basisregistratieondergrond.nl",
-    alt: "Basisregistratie Ondergrond",
-    width: 252,
-    height: 130,
-    id: 'BRO'},
   {
     src: 'logo_minbzk.png',
     href: "https://www.geobasisregistraties.nl/basisregistraties/ondergrond",
@@ -19,14 +13,12 @@ logos: [
     id: 'BZK',
   }]  ,
   editors: [    {
-      name: "Geonovum",
-	  /* mailto: "support@broservicedesk.nl", */
+      name: "Geonovum",	
       companyURL: "https://www.geonovum.nl/geo-standaarden/bro-basisregistratie-ondergrond",
     }],
   authors: [
     {
-      name: "Geonovum",
-	  /* mailto: "support@broservicedesk.nl", */
+      name: "Geonovum",	
       companyURL: "https://www.geonovum.nl/geo-standaarden/bro-basisregistratie-ondergrond",
     }
 	],
