@@ -1,7 +1,7 @@
 var respecConfig = {
-  specStatus: "GN-DEF",
+  specStatus: "GN-WV",
   specType: "IM",
-  publishDate: "2019-06-21", 
+ // publishDate: "2019-06-21", 
   maxTocLevel: 4,
 logos: [
  {
@@ -26,8 +26,8 @@ logos: [
   shortName: "GTM",
   pubDomain: "bro",
   github: "https://github.com/BROprogramma/GTM",
-  //previousPublishDate: "2017-01-01",
-  //previousStatus: "GN-CV",
+  previousPublishDate: "2019-06-21",
+  previousStatus: "GN-DEF",
  // localBiblio: {
  //   "ISO19136": {
   //    "href": "https://www.iso.org/standard/32554.html",
