@@ -4,14 +4,15 @@ var respecConfig = {
   publishDate: "2019-06-21", 
   maxTocLevel: 4,
 logos: [
-  {
-    src: 'logo_minbzk.png',
+ {
+    src: 'https://docs.geostandaarden.nl/bro/gen/logo_minbzk.png',
     href: "https://www.geobasisregistraties.nl/basisregistraties/ondergrond",
     alt: "Ministerie BZK",
-    width: 229,
-    height: 130,
-    id: 'BZK',
-  }]  ,
+    width: 776,
+    height: 163,
+    id: 'logo_minbzk',
+  }
+]  ,
   editors: [    {
       name: "Geonovum",	
       companyURL: "https://www.geonovum.nl/geo-standaarden/bro-basisregistratie-ondergrond",
